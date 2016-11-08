@@ -1,11 +1,7 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Glenn "Sjasie" Merckx</title>
-</head>
+---
+layout	: default
+title	: "New Media Design & Development"
+---
 
-<body>
-<h1>Hello World</h1>
-</body>
-</html>
+SLA
+===

@@ -13,8 +13,6 @@ $(document).ready(function() {
 		poster = data.poster_path;
 		homepage = data.homepage;
 		
-		alert(homepage);
-		
 		document.getElementById("title").innerHTML += "<h1 class='white'>"+title+"</h1>";
 		document.getElementById("info").innerHTML += "<p class='white'>"+info+"</p>";
 		document.getElementById("poster").innerHTML += "<img src='https://image.tmdb.org/t/p/w500"+poster+"' class='posterSize'/>";

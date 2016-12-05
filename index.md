@@ -6,18 +6,12 @@ title   : "New Media Design & Development I"
 <div class="push">
 
 	
-	<div class="col-md-12 col-sm-12 margin"> 
+	<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 margin"> 
 		<h1 class="typing lightBlue"></h1>
 	</div>
 	
-	
-	<div class="col-md-10 col-md-offset-1">
-		<div class="col-md-12 col-xs-12">
-			<button class="btn btn-primary col-md-12 col-xs-12" id="nowPlaying" value="">Now Playing in theaters</button>
-		</div>
-	</div>
-	
 	<div class="col-md-10 col-md-offset-1" id="genreButtons">
+		"<div class='col-md-12 col-xs-12'><button class='btnMarge btn btn-primary col-md-12 col-xs-12' value='0'>Now playing in theatres</button></div>";
 	</div>
 	
 	<!--

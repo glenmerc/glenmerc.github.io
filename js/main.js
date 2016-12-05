@@ -48,7 +48,8 @@ $( document ).ready(function() {
 			for (i = 0; i < data.results.length; i++) {
 			movie = data.results[i].original_title;
 			poster = data.results[i].poster_path;
-    		document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><a><div class='movieVast'><a href='detail'><img class='posterSize movieId' alt='"+movieId+"' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></a></div>";
+			movieId = data.results[i].id;
+    		document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail'><img class='posterSize movieId' alt='"+movieId+"' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></div>";
 			}
 			$(".movieId").on("click", function(){
 				movieId = $(this).attr("alt");

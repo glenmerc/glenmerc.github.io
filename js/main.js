@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	
-	var i, data, genreId, movie, poster, movie_id;
+	var i, data, genreId, movie, poster;
 		
 	//open de data API voor aanmaak van genre Buttons op index
 	$.getJSON("https://api.themoviedb.org/3/genre/movie/list?api_key=f32e0e7660d450db58d253702535beb2&language=en-us", function(data){
@@ -29,16 +29,9 @@ $( document ).ready(function() {
 			//aanmaak van elke film
 			for (i = 0; i < data.results.length; i++) {
 				movie = data.results[i].original_title;
-				movie_id = data.results[i].id;
 				poster = data.results[i].poster_path;
-    			document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail' class='block'><img alt='"+ movie_id +"' class='posterSize idMovie' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></div>";
+    			document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail'><img class='posterSize' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></div>";
 			}
-			
-			$(".idMovie").on("click",function(){
-				movie_id = $(this).attr("alt");
-				sessionStorage.setItem("movieId",movie_id);
-			});
-			
 		});
 	}else{
 		//open de data API voor het weergeven van films op genre
@@ -47,16 +40,10 @@ $( document ).ready(function() {
 			//aanmaak van elke film
 			for (i = 0; i < data.results.length; i++) {
 			movie = data.results[i].original_title;
-			movie_id = data.results[i].id;
 			poster = data.results[i].poster_path;
-    		document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail'  class='block'><img alt='"+ movie_id +"' class='posterSize idMovie' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></div>";
+    		document.getElementById("movies").innerHTML += 
+			"<div class='col-md-2 col-xs-6'><a><div class='movieVast'><a href='detail'><img class='posterSize' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></a></div>";
 			}
-			
-			$(".idMovie").on("click",function(){
-				movie_id = $(this).attr("alt");
-				sessionStorage.setItem("movieId",movie_id);
-			});
-			
 		});
 	}
 	

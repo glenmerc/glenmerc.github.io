@@ -8,10 +8,10 @@ port        : 4000
 
 # SEO
 # ---
-title      : &title NMDAD-I
-description: "New Media Design & Development I at Artevelde University College Ghent"
-author     : Philippe De Pauw - Waterschoot
-tracking_id: "UA-79628300-1"
+title        : &title NMDAD-I
+description  : "New Media Design & Development I at Artevelde University College Ghent"
+author       : Glenn Merckx
+tracking_id  : ""
 # url        :
 # image      :
 
@@ -23,6 +23,7 @@ gems:
   - jekyll-mentions
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
 highlighter: rouge
@@ -31,7 +32,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 sass:
-  style: compressed
+  style: nested
 exclude:
   - Gemfile
   - LICENSE

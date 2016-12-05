@@ -1,0 +1,25 @@
+.light {
+    margin: auto;
+    padding-top:0px;
+    width: 360px;
+}
+    .light input[type="text"] {
+    border: 1px solid;
+    float: left;
+    height: 45px;
+    padding: 4px;
+    width: 65%;
+}
+    .light input[type="submit"] {
+    background: none repeat scroll 0 0 #0CACE8;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 45px;
+    padding: 5px 20px;
+    text-transform:uppercase;
+    }
+	
+.btnMarge {
+	margin-top:20px;
+	}

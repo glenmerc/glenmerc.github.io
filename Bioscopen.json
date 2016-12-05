@@ -1,0 +1,30 @@
+{
+	"Bioscopen":	[
+		{
+			"Naam": "Studio Skoop",
+			"Adres": "Sint-Annaplein 63, 9000 Gent",
+			"Telefoon": "09 225 08 45",
+			"Website": "http://www.studioskoop.be/",
+			"Locatie-x": 3.73378182420731,
+			"locatie-y": 51.048764061465
+		},
+		{
+			"Naam": "Kinepolis",
+			"Adres": "Ter Platen 12, 9000 Gent",
+			"Telefoon": "09 265 06 00",
+			"Website": "https://kinepolis.be/nl/bioscopen/kinepolis-gent",
+			"Locatie-x": 3.73012094532817,
+			"locatie-y": 51.0406312113971
+		},
+		{
+			"Naam": "Sphinx",
+			"Adres": "Sint-Michielshelling 3, 9000 Gent",
+			"Telefoon": "09 225 60 86",
+			"Website": "https://www.sphinx-cinema.be/",
+			"Locatie-x": 3.72131952281068,
+			"locatie-y": 51.0537441929019
+		}
+	
+	
+	]
+}

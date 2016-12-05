@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	var movieId, title, info, poster, genre, i;
+	var movieId, title, info, poster, genre, i, homepage;
 	
 	
 	movieId = sessionStorage.getItem("movieId");
@@ -11,15 +11,16 @@ $(document).ready(function() {
 		title = data.original_title;
 		info = data.overview;
 		poster = data.poster_path;
+		homepage = data.homepage;
+		
+		alert(homepage);
 		
 		document.getElementById("title").innerHTML += "<h1 class='white'>"+title+"</h1>";
 		document.getElementById("info").innerHTML += "<p class='white'>"+info+"</p>";
 		document.getElementById("poster").innerHTML += "<img src='https://image.tmdb.org/t/p/w500"+poster+"' class='posterSize'/>";
-		
 		for (i = 0; i < data.genres.length; i++){
 		document.getElementById("genre").innerHTML += " "+data.genres[i].name+", ";}
-	
-		
 		});
+		document.getElementById("site").innerHTML += "<a class='white' target=_blank href='"+ homepage +"'>Official Site</a>";
 	
 });

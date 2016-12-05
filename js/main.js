@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	
-	var i, data, genreId, movie, poster;
+	var i, data, genreId, movie, poster, movieId;
 		
 	//open de data API voor aanmaak van genre Buttons op index
 	$.getJSON("https://api.themoviedb.org/3/genre/movie/list?api_key=f32e0e7660d450db58d253702535beb2&language=en-us", function(data){
@@ -30,8 +30,15 @@ $( document ).ready(function() {
 			for (i = 0; i < data.results.length; i++) {
 				movie = data.results[i].original_title;
 				poster = data.results[i].poster_path;
-    			document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail'><img class='posterSize' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></div>";
+				movieId = data.results[i].id;
+    			document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail'><img class='posterSize movieId' alt='"+movieId+"' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></div>";
 			}
+			
+			$(".movieId").on("click", function(){
+				movieId = $(this).attr("alt");
+				sessionStorage.setItem("movieId", movieId);
+				});
+			
 		});
 	}else{
 		//open de data API voor het weergeven van films op genre
@@ -41,9 +48,12 @@ $( document ).ready(function() {
 			for (i = 0; i < data.results.length; i++) {
 			movie = data.results[i].original_title;
 			poster = data.results[i].poster_path;
-    		document.getElementById("movies").innerHTML += 
-			"<div class='col-md-2 col-xs-6'><a><div class='movieVast'><a href='detail'><img class='posterSize' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></a></div>";
+    		document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><a><div class='movieVast'><a href='detail'><img class='posterSize movieId' alt='"+movieId+"' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></a></div>";
 			}
+			$(".movieId").on("click", function(){
+				movieId = $(this).attr("alt");
+				sessionStorage.setItem("movieId", movieId);
+				});
 		});
 	}
 	

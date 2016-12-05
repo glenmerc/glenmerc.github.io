@@ -1,9 +1,7 @@
 $(document).ready(function() {
-console.log("aanwezig");
+	var movieId;
 	
-	$(".detailPage").on("click", function(){
-		console.log("ohYes");
-		
-		});
-
+	
+	movieId = sessionStorage.getItem("movieId");
+	console.log(movieId);
 });

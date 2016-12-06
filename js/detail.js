@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	var movieId, title, info, poster, genre, i, homepage, imdbId, imdb, imdbRating;
+	var movieId, title, info, poster, genre, i, homepage, imdbId, imdb, imdbRating, jaar, release, director, key;
 	
 	
 	movieId = sessionStorage.getItem("movieId");
@@ -13,19 +13,19 @@ $(document).ready(function() {
 		info = data.overview;
 		poster = data.poster_path;
 		homepage = data.homepage;
-		imdbId = data.imdb_id;			
-		
+		imdbId = data.imdb_id;	
+	
 		
 		console.log(imdbId);
 		console.log(homepage);
 		
 		document.getElementById("title").innerHTML += "<h1 class='white'>"+title+"</h1>";
 		
-		document.getElementById("info").innerHTML += "<p class='white'>"+info+"</p>";
+		document.getElementById("info").innerHTML += "<p class='white'>"+info+"</p><hr>";
 		
 		document.getElementById("poster").innerHTML += "<img src='https://image.tmdb.org/t/p/w500"+poster+"' class='posterSize'/>";
 		
-		document.getElementById("site").innerHTML += "<p class='white' id='site'>Official Website: <a class='link' target=_blank href='"+ data.homepage +"'>"+data.homepage+"</a> </p>";
+		document.getElementById("site").innerHTML += "<p class='white' id='site'>Official Website: <a class='link' target=_blank href='"+ data.homepage +"'>"+data.homepage+"</a></p>";
 		
 		
 		for (i = 0; i < data.genres.length; i++){
@@ -36,9 +36,25 @@ $(document).ready(function() {
 		//open de data API voor het weergeven van imdb rating
 		$.getJSON("http://www.omdbapi.com/?i="+imdbId+"&plot=short&r=json", function(data2){
 		imdbRating = data2.imdbRating;
+		jaar = data2.Year;
+		release = data2.Released;
+		director = data2.Director;
 		
-		document.getElementById("site").innerHTML += "<p class='white' id='site'>IMDB-rating: <span style='font-weight:bolder;font:20px'>"+imdbRating+ "</span> /10</p>";
+		document.getElementById("site").innerHTML += "<p class='white' id='site'>IMDB-rating: <span style='font-weight:bolder;font:20px'>"+imdbRating+ "</span> /10</p><hr>";
+		
+		document.getElementById("year").innerHTML += "<p class='white'>Release Date: "+release+", "+jaar+"</p>";
+		
+		document.getElementById("director").innerHTML += "<p class='white'>Director: "+director+"</p>";
 		});
+		
+		//open de data API voor het weergeven van trailer
+		$.getJSON("https://api.themoviedb.org/3/movie/"+movieId+"/videos?api_key=f32e0e7660d450db58d253702535beb2&language=en-US", function(data3){
+			key = data3.results[1].key;
+			console.log(key);
+			
+			document.getElementById("video").innerHTML += "<div class='margin embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='//www.youtube.com/embed/"+key+"'></iframe></div>";
+			
+			});
 	
 	});
 		

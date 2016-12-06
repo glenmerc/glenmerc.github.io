@@ -28,6 +28,7 @@ title   : "New Media Design & Development I"
       				</tr>
     			</thead>
     			<tbody id="programmatie">
+				
     			</tbody>
   			</table>
   		</div>

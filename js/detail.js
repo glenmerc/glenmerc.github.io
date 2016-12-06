@@ -13,12 +13,15 @@ $(document).ready(function() {
 		poster = data.poster_path;
 		homepage = data.homepage;
 		
+		console.log(homepage);
+		
 		document.getElementById("title").innerHTML += "<h1 class='white'>"+title+"</h1>";
 		document.getElementById("info").innerHTML += "<p class='white'>"+info+"</p>";
 		document.getElementById("poster").innerHTML += "<img src='https://image.tmdb.org/t/p/w500"+poster+"' class='posterSize'/>";
+		document.getElementById("site").innerHTML += "<a class='white' target=_blank href='"+ data.homepage +"'>Official Site</a>";
 		for (i = 0; i < data.genres.length; i++){
 		document.getElementById("genre").innerHTML += " "+data.genres[i].name+", ";}
 		});
-		document.getElementById("site").innerHTML += "<a class='white' target=_blank href='"+ homepage +"'>Official Site</a>";
+		
 	
 });

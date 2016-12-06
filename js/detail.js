@@ -7,7 +7,7 @@ $(document).ready(function() {
 	console.log(movieId);
 	
 	//open de data API voor het weergeven van films op movieId
-	$.getJSON("/js/uurregeling.json", function(data){
+	$.getJSON("https://api.myjson.com/bins/35uzb", function(data){
 		movieId = sessionStorage.getItem("movieId");
 		cinema = data[movieId].Cinema;
 		filmDag = data[movieId].Dagen[i].Dag;

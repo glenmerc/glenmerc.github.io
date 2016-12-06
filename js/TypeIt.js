@@ -28,10 +28,4 @@ $( document ).ready(function() {
 });	
     });
 
-	$('.btnmarge').click(function(){
- 		 $(".layer").css({"height":"900px"});
-	});
-	
-	
-
 });

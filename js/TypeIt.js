@@ -7,9 +7,6 @@ $( document ).ready(function() {
 		
 		i = Math.floor((Math.random() * 100) + 1);
 		
-		
-	
-	
 	$(".typing").typeIt({
      strings: ['“'+ data.Quotes[i].Quote +'” <p class="ptit">'+ data.Quotes[i].Film +', '+ data.Quotes[i].Jaar  +'</p>'],
      speed: 100,

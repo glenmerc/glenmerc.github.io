@@ -3,595 +3,695 @@
 		{
 			"Quote": "Love means never having to say you're sorry.",
 			"Film": "Love Story",
-			"Jaar": "1970"
+			"Jaar": "1970",
+			"Img": "lovestory.jpg"
 		},
 		
         {
 			"Quote": "They may take our lives, but they'll never take our freedom!",
 			"Film": "Braveheart",
-			"Jaar": "1995"
+			"Jaar": "1995",
+			"Img": "braveheart.jpg"
 		},
 
         {
 			"Quote": "They call me Mister Tibbs!",
 			"Film": "In the Heat of the Night",
-			"Jaar": "1967"
+			"Jaar": "1967",
+			"Img": "intheheatofthenight.jpg"
 		},
 
          {
 			"Quote": "When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.",
 			"Film": "When Harry Met Sally",
-			"Jaar": "1989"
+			"Jaar": "1989",
+			"Img":"whenharrymetsally.jpg"
 		},
         
          {
 			"Quote": "If you let my daughter go now, that'll be the end of it. I will not look for you, I will not pursue you. But if you don't, I will look for you, I will find you, and I will kill you.",
 			"Film": "Taken",
-			"Jaar": "2008"
+			"Jaar": "2008",
+			"Img":"taken.jpg"
 		},
 
          {
 			"Quote": "You complete me.",
 			"Film": "Jerry Maguire",
-			"Jaar": "1996"
+			"Jaar": "1996",
+			"Img":"jerrymaguire.jpg"
 		},
 
          {
-			"Quote": "My name is Maximus Decimus Meridius, commander of the Armies of the North, General of the Felix Legions and loyal servant to the true emperor, Marcus Aurelius. Father to a murdered son, husband to a murdered wife. And I will have my vengeance, in this life or the next.",
+			"Quote": "At my signal, unleash hell",
 			"Film": "Gladiator",
-			"Jaar": "2000"
+			"Jaar": "2000",
+			"Img": "gladiator.jpg"
 		},
 
          {
 			"Quote": "I drink your milkshake!",
 			"Film": "There Will Be Blood",
-			"Jaar": "2007"
+			"Jaar": "2007",
+			"Img": "therewillbeblood.jpg"
 		},
 
          {
 			"Quote": "Get your stinking paws off me, you damned dirty ape!",
 			"Film": "Planet of the Apes",
-			"Jaar": "1968"
+			"Jaar": "1968",
+			"Img": "planetoftheapes.jpg"
 		},
 
          {
 			"Quote": "You make me want to be a better man.",
 			"Film": "As Good as It Gets",
-			"Jaar": "1997"
+			"Jaar": "1997",
+			"Img": "asgoodasitgets.jpg"
 		},
 
          {
 			"Quote": "As if!",
 			"Film": "Clueless",
-			"Jaar": "1995"
+			"Jaar": "1995",
+			"Img": "clueless.jpg"
 		},
 
          {
 			"Quote": "Chewie, we're home.",
 			"Film": "Star Wars Episode VII: The Force Awakens",
-			"Jaar": "2015"
+			"Jaar": "2015",
+			"Img": "starwarsep7.jpg"
 		},
 
          {
 			"Quote": "Forget it, Jake. It's Chinatown.",
 			"Film": "Chinatown",
-			"Jaar": "1974"
+			"Jaar": "1974",
+			"Img": "chinatown.jpg"
 		},
 
          {
 			"Quote": "These go to eleven.",
 			"Film": "This Is Spinal Tap",
-			"Jaar": "1984"
+			"Jaar": "1984",
+			"Img": "thisisspinaltap.jpg"
 		},
 
          {
 			"Quote": "I'm walking here! I'm walking here!",
 			"Film": "Midnight Cowboy",
-			"Jaar": "1969"
+			"Jaar": "1969",
+			"Img": "midnightcowboy.jpg"
 		},
 
          {
 			"Quote": "It was Beauty killed the Beast.",
 			"Film": "King Kong",
-			"Jaar": "1933"
+			"Jaar": "1933",
+			"Img": "kingkongs.jpg"
 		},
 
          {
 			"Quote": "Badges? We ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!",
 			"Film": "The Treasure of the Sierra Madre",
-			"Jaar": "1948"
+			"Jaar": "1948",
+			"Img": "thetreasureofthesierramadre.jpg"
 		},
 
          {
 			"Quote": "I'm just one stomach flu away from my goal weight.",
 			"Film": "The Devil Wears Prada",
-			"Jaar": "2006"
+			"Jaar": "2006",
+			"Img": "thedevilwearsprada.jpg"
 		},
 
          {
-			"Quote": "They call it a Royale with cheese.",
+			"Quote": "Now, if you'll excuse me, I'm going to go home and have a heart attack.",
 			"Film": "Pulp Fiction",
-			"Jaar": "1994"
+			"Jaar": "1994",
+			"Img": "pulpfiction.jpg"
 		},
 
          {
 			"Quote": "They're here!",
 			"Film": "Poltergeist",
-			"Jaar": "1982"
+			"Jaar": "1982",
+			"Img": "poltergeist.jpg"
 		},
 
          {
 			"Quote": "Magic Mirror on the wall, who is the fairest one of all?",
 			"Film": "Snow White and the Seven Dwarves",
-			"Jaar": "1937"
+			"Jaar": "1937",
+			"Img": "snowwhiteandthesevendwarves.jpg"
 		},
 
          {
 			"Quote": "Just when I thought I was out, they pull me back in.",
 			"Film": "The Godfather: Part III",
-			"Jaar": "1990"
+			"Jaar": "1990",
+			"Img": "thegodfather3.jpg"
 		},
 
          {
 			"Quote": "Nobody's perfect.",
 			"Film": "Some Like It Hot",
-			"Jaar": "1959"
+			"Jaar": "1959",
+			"Img": "somelikeithot.jpg"
 		},
 
          {
 			"Quote": "Yo, Adrian!",
 			"Film": "Rocky",
-			"Jaar": "1976"
+			"Jaar": "1976",
+			"Img": "rocky.jpg"
 		},
 
          {
 			"Quote": "Wax on, wax off.",
 			"Film": "The Karate Kid",
-			"Jaar": "1974"
+			"Jaar": "1974",
+			"Img": "thekaratekid.jpg"
 		},
          {
 			"Quote": "You ain't heard nothin' yet!",
 			"Film": "The Jazz Singer",
-			"Jaar": "1927"
+			"Jaar": "1927",
+			"Img": "thejazzsinger.jpg"
 		},
 
          {
 			"Quote": "Gentlemen, you can't fight in here! This is the war room!",
-			"Film": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
-			"Jaar": "1964"
+			"Film": "Dr. Strangelove",
+			"Jaar": "1964",
+			"Img": "drstrangelove.jpg"
 		},
          {
 			"Quote": "I don't want to survive. I want to live.",
 			"Film": "12 Years a Slave",
-			"Jaar": "2013"
+			"Jaar": "2013",
+			"Img": "12yearsaslave.jpg"
 		},
 
          {
 			"Quote": "Elementary, my dear Watson.",
 			"Film": "The Adventures of Sherlock Holmes",
-			"Jaar": "1939"
+			"Jaar": "1939",
+			"Img": "theadventuresofsherlockholmes.jpg"
 		},
          {
 			"Quote": "That'll do, pig. That'll do.",
 			"Film": "Babe",
-			"Jaar": "1995"
+			"Jaar": "1995",
+			"Img": "babe.jpg"
 		},
          {
 			"Quote": "I wish I knew how to quit you.",
 			"Film": "Brokeback Mountain",
-			"Jaar": "2005"
+			"Jaar": "2005",
+			"Img": "brokebackmountain.jpg"
 		},
          {
 			"Quote": "Good morning, Vietnam!",
 			"Film": "Good Morning, Vietnam",
-			"Jaar": "1987"
+			"Jaar": "1987",
+			"Img": "goodmorningvietnam.jpg"
 		},
 
          {
 			"Quote": "My precious.",
 			"Film": "The Lord of the Rings: The Two Towers",
-			"Jaar": "2002"
+			"Jaar": "2002",
+			"Img": "thelordoftherings.jpg"
 		},
 
          {
 			"Quote": "Argo f— yourself.",
 			"Film": "Argo",
-			"Jaar": "2012"
+			"Jaar": "2012",
+			"Img": "argo.jpg"
 		},
          {
 			"Quote": "It's alive! It's alive!",
 			"Film": "Frankenstein",
-			"Jaar": "1931"
+			"Jaar": "1931",
+			"Img": "frankenstein.jpg"
 		},
 
          {
 			"Quote": "I have always depended on the kindness of strangers.",
 			"Film": "A Streetcar Named Desire",
-			"Jaar": "1951"
+			"Jaar": "1951",
+			"Img": "astreetcarnameddesire.jpg"
 		},
 
          {
 			"Quote": "Go ahead, make my day.",
 			"Film": "Sudden Impact",
-			"Jaar": "1983"
+			"Jaar": "1983",
+			"Img": "suddenimpact.jpg"
 		},
 
          {
 			"Quote": "I mean, funny like I'm a clown? I amuse you?",
 			"Film": "Goodfellas",
-			"Jaar": "1990"
+			"Jaar": "1990",
+			"Img": "goodfellas.jpg"
 		},
 
         {
 			"Quote": "Help me, Obi-Wan Kenobi. You're my only hope.",
 			"Film": "Star Wars",
-			"Jaar": "1977"
+			"Jaar": "1977",
+			"Img": "starwars.jpg"
 		},
 
         {
 			"Quote": "You know how to whistle, don't you, Steve? You just put your lips together and blow.",
 			"Film": "To Have and Have Not",
-			"Jaar": "1944"
+			"Jaar": "1944",
+			"Img": "tohaveandhavenot.jpg"
 		},
 
         {
 			"Quote": "You is kind. You is smart. You is important.",
 			"Film": "The Help",
-			"Jaar": "2011"
+			"Jaar": "2011",
+			"Img": "thehelp.jpg"
 		},
 
         {
 			"Quote": "After all, tomorrow is another day!",
 			"Film": "Gone With the Wind",
-			"Jaar": "1939"
+			"Jaar": "1939",
+			"Img": "gonewiththewind.jpg"
 		},
 
         {
 			"Quote": "Stella! Hey, Stella!",
 			"Film": "A Streetcar Named Desire",
-			"Jaar": "1951"
+			"Jaar": "1951",
+			"Img": "astreetcarnameddesire.jpg"
 		},
 
         {
 			"Quote": "Pay no attention to that man behind the curtain!",
 			"Film": "The Wizard of Oz",
-			"Jaar": "1939"
+			"Jaar": "1939",
+			"Img": "thewizardofoz.jpg"
 		},
 
         {
 			"Quote": "I'm also just a girl, standing in front of a boy, asking him to love her.",
 			"Film": "Notting Hill",
-			"Jaar": "1999"
+			"Jaar": "1999",
+			"Img": "nottinghill.jpg"
 		},
 
         {
 			"Quote": "The Dude abides.",
 			"Film": "The Big Lebowski",
-			"Jaar": "1998"
+			"Jaar": "1998",
+			"Img": "thebiglebowski.jpg"
 		},
 
         {
 			"Quote": "Hasta la vista, baby.",
 			"Film": "Terminator 2: Judgment Day",
-			"Jaar": "1991"
+			"Jaar": "1991",
+			"Img": "terminator2.jpg"
 		},
 
         {
 			"Quote": "I'll get you, my pretty, and your little dog, too!",
 			"Film": "The Wizard of Oz",
-			"Jaar": "1939"
+			"Jaar": "1939",
+			"Img": "thewizardofoz.jpg"
 		},
 
         {
 			"Quote": "Play it, Sam. Play 'As Time Goes By.'",
 			"Film": "Casablanca",
-			"Jaar": "1942"
+			"Jaar": "1942",
+			"Img":"casablanca.jpg"
 		},
 
         {
 			"Quote": "I'm having an old friend for dinner.",
 			"Film": "The Silence of the Lambs",
-			"Jaar": "1991"
+			"Jaar": "1991",
+			"Img": "thesilenceofthelambs.jpg"
 		},
 
         {
 			"Quote": "I'm not bad. I'm just drawn that way.",
 			"Film": "Who Framed Roger Rabbit",
-			"Jaar": "1988"
+			"Jaar": "1988",
+			"Img": "whoframesrogerrabbit.jpg"
 		},
 
         {
 			"Quote": "If you build it, he will come.",
 			"Film": "Field of Dreams",
-			"Jaar": "1989"
+			"Jaar": "1989",
+			"Img": "fieldofdreams.jpg"
 		},
 
         {
 			"Quote": "Just keep swimming.",
 			"Film": "Finding Nemo",
-			"Jaar": "2003"
+			"Jaar": "2003",
+			"Img": "findingnemo.jpg"
 		},
 
         {
-			"Quote": "Mama says, 'Stupid is as stupid does.'",
+			"Quote": "Mama always said 'life was like a box of chocolates. You never know what you're gonna get.'",
 			"Film": "Forrest Gump",
-			"Jaar": "1994"
+			"Jaar": "1994",
+			"Img": "forrestgump.jpg"
 		},
 
         {
 			"Quote": "I'm the king of the world!",
 			"Film": "Titanic",
-			"Jaar": "1997"
+			"Jaar": "1997",
+			"Img": "titanic.jpg"
 		},
 
         {
 			"Quote": "Shaken, not stirred.",
 			"Film": "Goldfinger",
-			"Jaar": "1964"
+			"Jaar": "1964",
+			"Img": "goldfinger.jpg"
 		},
 
         {
 			"Quote": "What we've got here is a failure to communicate.",
 			"Film": "Cool Hand Luke",
-			"Jaar": "1967"
+			"Jaar": "1967",
+			"Img": "coolhandluke.jpg"
 		},
 
         {
 			"Quote": "I am big! It's the pictures that got small.",
 			"Film": "Sunset Boulevard",
-			"Jaar": "1950"
+			"Jaar": "1950",
+			"Img": "sunsetboulevard.jpg"
 		},
 
         {
 			"Quote": "Every time a bell rings, an angel gets his wings.",
 			"Film": "It's a Wonderful Life",
-			"Jaar": "1946"
+			"Jaar": "1946",
+			"Img": "itsawonderfullife.jpg"
 		},
 
         {
 			"Quote": "Keep your friends close, but your enemies closer.",
 			"Film": "The Godfather, Part II",
-			"Jaar": "1974"
+			"Jaar": "1974",
+			"Img": "thegodfather3.jpg"
 		},
 
         {
 			"Quote": "The greatest trick the devil ever pulled was convincing the world he didn't exist.",
 			"Film": "The Usual Suspects",
-			"Jaar": "1995"
+			"Jaar": "1995",
+			"Img": "theusualsuspects.jpg"
 		},
 
         {
 			"Quote": "I'm as mad as hell, and I'm not going to take this anymore!",
 			"Film": "Network",
-			"Jaar": "1976"
+			"Jaar": "1976",
+			"Img": "network.jpg"
 		},
 
         {
 			"Quote": "You don't understand! I could've had class. I could've been a contender. I could've been somebody, instead of a bum, which is what I am.",
 			"Film": "On the Waterfront",
-			"Jaar": "1954"
+			"Jaar": "1954",
+			"Img": "onthewaterfront.jpg"
 		},
 
         {
 			"Quote": "Roads? Where we're going we don't need roads.",
 			"Film": "Back to the Future",
-			"Jaar": "1985"
+			"Jaar": "1985",
+			"Img": "backtothefuture.jpg"
 		},
 
         {
 			"Quote": "Fasten your seatbelts. It's going to be a bumpy night.",
 			"Film": "All About Eve",
-			"Jaar": "1950"
+			"Jaar": "1950",
+			"Img": "allabouteve.jpg"
 		},
 
         {
 			"Quote": "I love the smell of napalm in the morning.",
 			"Film": "Apocalypse Now",
-			"Jaar": "1979"
+			"Jaar": "1979",
+			"Img": "apocalypsenow.jpg"
 		},
 
         {
 			"Quote": "You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya punk?",
 			"Film": "Dirty Harry",
-			"Jaar": "1971"
+			"Jaar": "1971",
+			"Img": "dirtyharry.jpg"
 		},
 
         {
 			"Quote": "Say hello to my little friend!",
 			"Film": "Scarface",
-			"Jaar": "1983"
+			"Jaar": "1983",
+			"Img": "scarface.jpg"
 		},
 
         {
 			"Quote": "Show me the money!",
 			"Film": "Jerry Maguire",
-			"Jaar": "1996"
+			"Jaar": "1996",
+			"Img": "jerrymaguire.jpg"
 		},
 
         {
 			"Quote": "Leave the gun. Take the cannoli.",
 			"Film": "The Godfather",
-			"Jaar": "1972"
+			"Jaar": "1972",
+			"Img": "thegodfather.jpg"
 		},
 
         {
 			"Quote": "Carpe diem. Seize the day, boys.",
 			"Film": "Dead Poets Society",
-			"Jaar": "1989"
+			"Jaar": "1989",
+			"Img": "deadpoetssociety.jpg"
 		},
 
         {
 			"Quote": "Mrs. Robinson, you're trying to seduce me, aren't you?",
 			"Film": "The Graduate",
-			"Jaar": "1967"
+			"Jaar": "1967",
+			"Img": "thegraduate.jpg"
 		},
 
         {
 			"Quote": "I am serious. And don't call me Shirley.",
 			"Film": "Airplane",
-			"Jaar": "1980"
+			"Jaar": "1980",
+			"Img": "airplane.jpg"
 		},
 
         {
 			"Quote": "Here's Johnny!",
 			"Film": "The Shining",
-			"Jaar": "1980"
+			"Jaar": "1980",
+			"Img": "theshining.jpg"
 		},
 
         {
 			"Quote": "There's no crying in baseball!",
 			"Film": "A League of Their Own",
-			"Jaar": "1992"
+			"Jaar": "1992",
+			"Img": "aleagueoftheirown.jpg"
 		},
 
         {
 			"Quote": "You had me at hello.",
 			"Film": "Jerry Maguire",
-			"Jaar": "1996"
+			"Jaar": "1996",
+			"Img": "jerrymaguire.jpg"
 		},
 
         {
 			"Quote": "Houston, we have a problem.",
 			"Film": "Apollo 13",
-			"Jaar": "1995"
+			"Jaar": "1995",
+			"Img": "apollo13.jpg"
 		},
 
         {
 			"Quote": "To infinity and beyond!",
 			"Film": "Toy Story",
-			"Jaar": "1995"
+			"Jaar": "1995",
+			"Img": "toystory.jpg"
 		},
 
         {
 			"Quote": "Yippie-ki-yay, motherf—er!",
 			"Film": "Die Hard",
-			"Jaar": "1988"
+			"Jaar": "1988",
+			"Img": "diehard.jpg"
 		},
 
          {
 			"Quote": "E.T. phone home.",
 			"Film": "E.T. the Extra-Terrestrial",
-			"Jaar": "1982"
+			"Jaar": "1982",
+			"Img": "ET.jpg"
 		},
 
          {
 			"Quote": "You can't handle the truth!",
 			"Film": "A Few Good Men",
-			"Jaar": "1992"
+			"Jaar": "1992",
+			"Img": "afewgoodmen.jpg"
 		},
 
          {
 			"Quote": "I'll be back.",
 			"Film": "The Terminator",
-			"Jaar": "1984"
+			"Jaar": "1984",
+			"Img": "theterminator.jpg"
 		},
 
          {
 			"Quote": "I see dead people.",
 			"Film": "The Sixth Sense",
-			"Jaar": "1999"
+			"Jaar": "1999",
+			"Img": "thesixthsense.jpg"
 		},
 
          {
 			"Quote": "Bond. James Bond.",
 			"Film": "Dr. No",
-			"Jaar": "1962"
+			"Jaar": "1962",
+			"Img": "drno.jpg"
 		},
 
          {
 			"Quote": "We'll always have Paris.",
 			"Film": "Casablanca",
-			"Jaar": "1942"
+			"Jaar": "1942",
+			"Img":"casablanca.jpg"
 		},
 
          {
 			"Quote": "This is the beginning of a beautiful friendship.",
 			"Film": "Casablanca",
-			"Jaar": "1942"
+			"Jaar": "1942",
+			"Img":"casablanca.jpg"
 		},
 
          {
 			"Quote": "I'll have what she's having.",
 			"Film": "When Harry Met Sally",
-			"Jaar": "1989"
+			"Jaar": "1989",
+			"Img":"whenharrymetsally.jpg"
 		},
 
          {
 			"Quote": "Why so serious?",
 			"Film": "The Dark Knight",
-			"Jaar": "2008"
+			"Jaar": "2008",
+			"Img": "batman.jpg"
 		},
 
          {
 			"Quote": "Hello. My name is Inigo Montoya. You killed my father. Prepare to die.",
 			"Film": "The Princess Bride",
-			"Jaar": "1987"
+			"Jaar": "1987",
+			"Img": "theprincessbride.jpg"
 		},
 
          {
 			"Quote": "I am your father.",
 			"Film": "Star Wars Episode V: The Empire Strikes Back",
-			"Jaar": "1980"
+			"Jaar": "1980",
+			"Img": "starwars5.jpg"
 		},
 
          {
 			"Quote": "The first rule of Fight Club is: You do not talk about Fight Club.",
 			"Film": "Fight Club",
-			"Jaar": "1999"
+			"Jaar": "1999",
+			"Img": "fightclub.jpg"
 		},
 
          {
 			"Quote": "There's no place like home.",
 			"Film": "The Wizard of Oz",
-			"Jaar": "1939"
+			"Jaar": "1939",
+			"Img": "thewizardofoz.jpg"
 		},
 
          {
 			"Quote": "You talkin' to me?",
 			"Film": "Taxi Driver",
-			"Jaar": "1976"
+			"Jaar": "1976",
+			"Img": "taxidriver.jpg"
 		},
 
          {
 			"Quote": "Of all the gin joints in all the towns in all the world, she walks into mine.",
 			"Film": "Casablanca",
-			"Jaar": "1942"
+			"Jaar": "1942",
+			"Img":"casablanca.jpg"
 		},
 
          {
 			"Quote": "I'm going to make him an offer he can't refuse.",
 			"Film": "The Godfather",
-			"Jaar": "1972"
+			"Jaar": "1972",
+			"Img": "thegodfather.jpg"
 		},
         
          {
 			"Quote": "Toto, I've a feeling we're not in Kansas anymore.",
 			"Film": "The Wizard of Oz",
-			"Jaar": "1939"
+			"Jaar": "1939",
+			"Img": "thewizardofoz.jpg"
 		},
 
          {
 			"Quote": "May the Force be with you.",
 			"Film": "Star Wars",
-			"Jaar": "1977"
+			"Jaar": "1977",
+			"Img": "starwars.jpg"
 		},
 
         {
 			"Quote": "You're gonna need a bigger boat.",
 			"Film": "Jaws",
-			"Jaar": "1975"
+			"Jaar": "1975",
+			"Img": "jaws.jpg"
 		},
 
         {
 			"Quote": "Here's looking at you, kid.",
 			"Film": "Casablanca",
-			"Jaar": "1942"
+			"Jaar": "1942",
+			"Img":"casablanca.jpg"
 		},
 
         {
 			"Quote": "Frankly, my dear, I don't give a damn.",
 			"Film": "Gone With the Wind",
-			"Jaar": "1939"
+			"Jaar": "1939",
+			"Img": "gonewiththewind.jpg"
 		}
 ]}
 		 

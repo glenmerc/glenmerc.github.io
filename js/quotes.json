@@ -113,7 +113,7 @@
 		},
 
          {
-			"Quote": "Badges? We ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!",
+			"Quote": "Badges? We ain't got no badges!",
 			"Film": "The Treasure of the Sierra Madre",
 			"Jaar": "1948",
 			"Img": "thetreasureofthesierramadre.jpg"
@@ -387,10 +387,10 @@
 		},
 
         {
-			"Quote": "What we've got here is a failure to communicate.",
-			"Film": "Cool Hand Luke",
-			"Jaar": "1967",
-			"Img": "coolhandluke.jpg"
+			"Quote": "You're a wizard Harry",
+			"Film": "Harry Potter",
+			"Jaar": "2001",
+			"Img": "harrypotter.jpg"
 		},
 
         {
@@ -549,7 +549,7 @@
 
          {
 			"Quote": "E.T. phone home.",
-			"Film": "E.T. the Extra-Terrestrial",
+			"Film": "E.T.",
 			"Jaar": "1982",
 			"Img": "ET.jpg"
 		},

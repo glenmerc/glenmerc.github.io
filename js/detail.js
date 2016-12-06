@@ -23,6 +23,7 @@ $(document).ready(function() {
 		}
 		
 		});
+		
 	
 	//open de data API voor het weergeven van films op movieId
 	$.getJSON("https://api.themoviedb.org/3/movie/"+ movieId +"?api_key=f32e0e7660d450db58d253702535beb2&language=en-US", function(data){

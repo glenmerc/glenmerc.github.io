@@ -78,12 +78,13 @@ a {
 .background {
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position:bottom center;
+	background-position:center center;
+	background-attachment: fixed
 	
 	}
 	
 .layer {
-	background-color: rgba(34,56,63,0.8);
+	background-color: rgba(34,56,63,0.85);
     position: absolute;
     top: 0;
     left: 0;

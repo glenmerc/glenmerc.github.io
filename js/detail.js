@@ -49,7 +49,7 @@ $(document).ready(function() {
 		
 		//open de data API voor het weergeven van trailer
 		$.getJSON("https://api.themoviedb.org/3/movie/"+movieId+"/videos?api_key=f32e0e7660d450db58d253702535beb2&language=en-US", function(data3){
-			key = data3.results[1].key;
+			key = data3.results[0].key;
 			console.log(key);
 			
 			document.getElementById("video").innerHTML += "<div class='margin embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='//www.youtube.com/embed/"+key+"'></iframe></div>";

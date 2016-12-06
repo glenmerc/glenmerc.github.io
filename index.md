@@ -10,8 +10,13 @@ title   : "New Media Design & Development I"
 		<h1 class="typing lightBlue"></h1>
 	</div>
 	
-	<div class="col-md-10 col-md-offset-1" id="genreButtons">
-		"<div class='col-md-12 col-xs-12'><button class='btnMarge btn btn-primary col-md-12 col-xs-12' value='0'>Now playing in theatres</button></div>";
+	<div class="col-md-10 col-md-offset-1" id="">
+		<div class='col-md-12 col-xs-12'>
+			<button class='btnMarge btn btn-primary col-md-12 col-xs-12' value='0'>Now playing in theatres</button>
+			<button class='btnmarge btn btn-primary col-md-12 col-xs-12' value=''>Genres</button>
+		</div>;
+		<div class="col-md-12 col-xs-12" id="genreButtons">
+		</div>
 	</div>
 	
 	<!--

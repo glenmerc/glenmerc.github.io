@@ -7,7 +7,7 @@ $( document ).ready(function() {
 		
 		//aanmaak van alle genre buttons op index
 		for (i = 0; i < data.genres.length; i++) {
-		document.getElementById("genreButtons").innerHTML += "<div class='col-md-3 col-xs-12'><button class='btnMarge btn btn-primary col-md-12 col-xs-12' value='"+ data.genres[i].id +"'>"+ data.genres[i].name+"</button></div>";
+		document.getElementById("genreButtons").innerHTML += "<div class='col-md-2 col-xs-12'><button class='btnMarge btn btn-primary col-md-12 col-xs-12' value='"+ data.genres[i].id +"'>"+ data.genres[i].name+"</button></div>";
 		}	
 		
 		//weergeven van de genreId
@@ -75,6 +75,14 @@ $( document ).ready(function() {
 			window.location.href = "result";
 			});	
 	});
+	
+	
+	$("#genreButtons").hide();
+	$(".btnmarge").on("click",function(){
+		$("#genreButtons").show();
+		$(this).hide();
+		});
+	
 	
 	
 	

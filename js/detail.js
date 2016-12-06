@@ -34,7 +34,7 @@ $(document).ready(function() {
 		
 		
 		//open de data API voor het weergeven van imdb rating
-		$.getJSON("http://www.omdbapi.com/?i="+imdbId+"&plot=short&r=json", function(data2){
+		$.getJSON("http://www.omdbapi.com/?i="+imdbId+"&plot=short&r=json&apikey=95882ccc", function(data2){
 		imdbRating = data2.imdbRating;
 		jaar = data2.Year;
 		release = data2.Released;

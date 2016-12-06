@@ -40,9 +40,4 @@ title   : "New Media Design & Development I"
 			</form>
 		</div>
 	</div>
-	<div class="col-md-4 kader">
-			<div class="col-md-3"><a class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a></div>
-			<div class="col-md-3"><a class="btn btn-social-icon btn-lg btn-pinterest"><span class="fa fa-pinterest"></span></a></div>
-			<div class="col-md-3"><a class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a></div>
-	</div>
 </div>

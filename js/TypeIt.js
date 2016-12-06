@@ -25,8 +25,13 @@ $( document ).ready(function() {
 .tiPause(500)*/
 ;
 
-});
-		
+});	
     });
+
+	$('.btnmarge').click(function(){
+ 		 $(".layer").css({"height":"100%"});
+	});
+	
+	
 
 });

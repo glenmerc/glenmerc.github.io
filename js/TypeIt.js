@@ -7,9 +7,9 @@ $( document ).ready(function() {
 		
 		i = Math.floor((Math.random() * 100) + 1);
 	
-	$(".background").css({"background-image": "url(../../img/index/"+data.Quotes[i].Img+")"});
-		
-	$(".typing").typeIt({
+	$(".background").css({"background-image": "url(../../img/index/"+data.Quotes[i].Img+")"}).ready(function() {
+        
+		$(".typing").typeIt({
      strings: ['“'+ data.Quotes[i].Quote +'” <p class="ptit">'+ data.Quotes[i].Film +', '+ data.Quotes[i].Jaar  +'</p>'],
      speed: 100,
 	 lifelike:true,
@@ -26,5 +26,7 @@ $( document ).ready(function() {
 ;
 
 });
+		
+    });
 
 });

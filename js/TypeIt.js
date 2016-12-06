@@ -29,7 +29,7 @@ $( document ).ready(function() {
     });
 
 	$('.btnmarge').click(function(){
- 		 $(".layer").css({"height":"100vh"});
+ 		 $(".layer").css({"height":"900px"});
 	});
 	
 	

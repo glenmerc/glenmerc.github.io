@@ -14,6 +14,22 @@ title   : "New Media Design & Development I"
 		<div class="col-md-8" id="imdb">	</div>
 		<div class="col-md-8" id="site">	</div>
 		<div class="col-md-12" id="video"></div>
-		
+	</div>
+	<div class="col-md-12 well">
+	<div class="col-md-12" id=""><h1 class="white">Programmatie</h1></div>
+		<div class="col-md-12" id="plaats">	</div>
+		<div class="table-responsive col-md-12">          
+  			<table class="table col-md-12">
+    			<thead>
+      				<tr>
+        				<th>Dag</th>
+        				<th>Uur</th>
+        				<th>Zaal</th>
+      				</tr>
+    			</thead>
+    			<tbody id="programmatie">
+    			</tbody>
+  			</table>
+  		</div>
 	</div>
 </div>

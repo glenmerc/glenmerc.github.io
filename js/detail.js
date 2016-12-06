@@ -1,11 +1,28 @@
 $(document).ready(function() {
 	
-	var movieId, title, info, poster, genre, i, homepage, imdbId, imdb, imdbRating, jaar, release, director, key;
+	var movieId, title, info, poster, genre, i, homepage, imdbId, imdb, imdbRating, jaar, release, director, key, cinema, filmDag, filmUur, filmZaal;
 	
 	
 	movieId = sessionStorage.getItem("movieId");
 	console.log(movieId);
 	
+	//open de data API voor het weergeven van films op movieId
+	$.getJSON("/js/uurregeling.json", function(data){
+		movieId = sessionStorage.getItem("movieId");
+		cinema = data[movieId].Cinema;
+		filmDag = data[movieId].Dagen[i].Dag;
+		filmUur = data[movieId].Dagen[i].Uren;
+		filmZaal = data[movieId].Dagen[i].Zalen;
+		
+		console.log(cinema);
+		
+		document.getElementById("plaats").innerHTML += "<h3 class='white'>"+cinema+"</h3>";
+		
+		for (i = 0; i < data[movieId].Dagen.length; i++){
+		document.getElementById("programmatie").innerHTML += "<tr><td>"+data[movieId].Dagen[i].Dag+"</td><td>"+data[movieId].Dagen[i].Uren+"</td><td>"+data[movieId].Dagen[i].Zalen+"</td></tr>";
+		}
+		
+		});
 	
 	//open de data API voor het weergeven van films op movieId
 	$.getJSON("https://api.themoviedb.org/3/movie/"+ movieId +"?api_key=f32e0e7660d450db58d253702535beb2&language=en-US", function(data){
@@ -54,12 +71,9 @@ $(document).ready(function() {
 			
 			document.getElementById("video").innerHTML += "<div class='margin embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='//www.youtube.com/embed/"+key+"'></iframe></div>";
 			
-			});
+		});
 	
-	});
-		
-		
-		
+	});	
 });
 
 

@@ -25,6 +25,4 @@ title   : "New Media Design & Development I"
         <div class="input-group-btn"><button class="btn btn-default" type="button" id="submit" onClick="show()"><i class="glyphicon glyphicon-search"></i></button>
 	</div>
 	-->
-	<div class="push">
-	</div>
 </div>

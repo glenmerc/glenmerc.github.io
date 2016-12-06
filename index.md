@@ -12,8 +12,8 @@ title   : "New Media Design & Development I"
 	
 	<div class="col-md-10 col-md-offset-1" id="">
 		<div class='col-md-12 col-xs-12'>
-			<button class='btnMarge btn btn-primary col-md-12 col-xs-12' value='0'>Now playing in theatres</button>
-			<button class='btnmarge btn btn-primary col-md-12 col-xs-12' value=''>Genres</button>
+			<button class='btnMarge btn btn-primary col-md-6 col-md-offset-3 col-xs-12' value='0'>Now playing in theatres</button>
+			<button class='btnmarge btn btn-primary col-md-6 col-md-offset-3 col-xs-12' value=''>Genres</button>
 		</div>;
 		<div class="col-md-12 col-xs-12" id="genreButtons">
 		</div>

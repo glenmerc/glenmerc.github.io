@@ -79,8 +79,7 @@ $( document ).ready(function() {
 	
 	$("#genreButtons").hide();
 	$(".btnmarge").on("click",function(){
-		$("#genreButtons").show();
-		$(this).hide();
+		$("#genreButtons").fadeToggle("show","swing");
 		});
 	
 	

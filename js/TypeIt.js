@@ -1,9 +1,17 @@
 $( document ).ready(function() {
 	
+	var quote, jaar, film,i ;
+	
+	$.getJSON("/js/quotes.json", function(data){
+		
+		
+		i = Math.floor((Math.random() * 100) + 1);
+		
+		
 	
 	
 	$(".typing").typeIt({
-     strings: ['“You talkin’ to me?” <p class="ptit">Taxi Driver, 1976</p>'],
+     strings: ['“'+ data.Quotes[i].Quote +'” <p class="ptit">'+ data.Quotes[i].Film +', '+ data.Quotes[i].Jaar  +'</p>'],
      speed: 100,
 	 lifelike:true,
 	 cursor:false,
@@ -18,6 +26,6 @@ $( document ).ready(function() {
 .tiPause(500)*/
 ;
 
-
+});
 
 });

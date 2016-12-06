@@ -14,5 +14,6 @@ title   : "New Media Design & Development I"
 		<div class="col-md-8" id="imdb">	</div>
 		<div class="col-md-8" id="site">	</div>
 		<div class="col-md-12" id="video"></div>
+		
 	</div>
 </div>

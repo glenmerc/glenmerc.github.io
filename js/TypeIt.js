@@ -7,7 +7,7 @@ $( document ).ready(function() {
 		
 		i = Math.floor((Math.random() * 100) + 1);
 	
-	$("body.background").css({"background-image": "url(../../img/index/"+data.Quotes[i].Img+")","background-repeat":"no-repeat","background-size":"cover","background-position":"center center","background-attachment":"fixed"});
+	$(".background").css({"background-image": "url(../../img/index/"+data.Quotes[i].Img+")"});
 		
 	$(".typing").typeIt({
      strings: ['“'+ data.Quotes[i].Quote +'” <p class="ptit">'+ data.Quotes[i].Film +', '+ data.Quotes[i].Jaar  +'</p>'],

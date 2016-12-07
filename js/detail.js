@@ -1,26 +1,33 @@
 $(document).ready(function() {
 	
-	var movieId, title, info, poster, genre, i, homepage, imdbId, imdb, imdbRating, jaar, release, director, key, cinema, filmDag, filmUur, filmZaal;
+	var movieId, title, info, poster, genre, i, homepage, imdbId, imdb, imdbRating, jaar, release, director, key, filmDag, filmUur, filmZaal, a;
 	
 	
 	movieId = sessionStorage.getItem("movieId");
 	console.log(movieId);
 	
 	//open de data API voor het weergeven van films op movieId
-	$.getJSON("https://api.myjson.com/bins/35uzb", function(data){
+	$.getJSON("https://api.myjson.com/bins/3b6nb", function(data){
 		movieId = sessionStorage.getItem("movieId");
-		cinema = data[movieId].Cinema;
-		filmDag = data[movieId].Dagen[i].Dag;
-		filmUur = data[movieId].Dagen[i].Uren;
-		filmZaal = data[movieId].Dagen[i].Zalen;
+		//filmDag = data[movieId][index].Dagen[i].Dag;
+		//filmUur = data[movieId][index].Dagen[i].Uren;
+		//filmZaal = data[movieId][index].Dagen[i].Zalen;
 		
-		console.log(cinema);
+		console.log("yes");
 		
-		document.getElementById("plaats").innerHTML += "<h3 class='white'>"+cinema+"</h3>";
-		
-		for (i = 0; i < data[movieId].Dagen.length; i++){
-		document.getElementById("programmatie").innerHTML += "<tr><td>"+data[movieId].Dagen[i].Dag+"</td><td>"+data[movieId].Dagen[i].Uren+"</td><td>"+data[movieId].Dagen[i].Zalen+"</td></tr>";
+		for (i = 0; i < data[movieId].length; i++){
+			document.getElementById("plaats").innerHTML += "<h3 class='white'>"+data[movieId][i].Cinema+"</h3><div class='table-responsive col-md-12'><table class='table col-md-12'><thead><tr><th>Dag</th><th>Uur</th><th>Zaal</th></tr></thead><tbody id='programmatie"+i+"'></tbody></table></div>";
+			for(a = 0; a < data[movieId][i].Dagen.length ; a++){
+				document.getElementById("programmatie"+i+"").innerHTML += "<tr><td>"+data[movieId][i].Dagen[a].Dag+"</td><td>"+data[movieId][i].Dagen[a].Uren+"</td><td>"+data[movieId][i].Dagen[a].Zalen+"</td></tr>";
+				
+			}
 		}
+		
+		//document.getElementById("plaats").innerHTML += "<h3 class='white'>"+cinema+"</h3>";
+		
+		/*for (i = 0; i < data[movieId].Dagen.length; i++){
+		document.getElementById("programmatie").innerHTML += "<tr><td>"+data[movieId].Dagen[i].Dag+"</td><td>"+data[movieId].Dagen[i].Uren+"</td><td>"+data[movieId].Dagen[i].Zalen+"</td></tr>";
+		}*/
 		
 		});
 		

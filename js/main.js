@@ -23,6 +23,8 @@ $( document ).ready(function() {
 	genreId = sessionStorage.getItem("genreId");
 	console.log(genreId);
 	
+	
+	//if, de nowplaying is geen genre en heeft dus een andere behandeling nodig
 	if (genreId === "0"){
 		//open de data API voor het weergeven van "now playing"
 		$.getJSON("https://api.themoviedb.org/3/movie/now_playing?api_key=f32e0e7660d450db58d253702535beb2&language=en-US", function(data){
@@ -34,6 +36,7 @@ $( document ).ready(function() {
     			document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail'><img class='posterSize movieId' alt='"+movieId+"' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></div>";
 			}
 			
+			//wanneer er geklikt wordt op een .movieId --> sessionstorage van alt-waarde
 			$(".movieId").on("click", function(){
 				movieId = $(this).attr("alt");
 				sessionStorage.setItem("movieId", movieId);
@@ -51,6 +54,8 @@ $( document ).ready(function() {
 			movieId = data.results[i].id;
     		document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail'><img class='posterSize movieId' alt='"+movieId+"' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></div>";
 			}
+			
+			//wanneer er geklikt wordt op een .movieId --> sessionstorage van alt-waarde
 			$(".movieId").on("click", function(){
 				movieId = $(this).attr("alt");
 				sessionStorage.setItem("movieId", movieId);
@@ -76,7 +81,7 @@ $( document ).ready(function() {
 			});	
 	});
 	
-	
+	//bij klik op de button verschijnen/verdwijnen de verschillende genres op de index
 	$("#genreButtons").hide();
 	$(".btnmarge").on("click",function(){
 		$("#genreButtons").fadeToggle("show","swing");

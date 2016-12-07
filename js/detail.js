@@ -2,32 +2,26 @@ $(document).ready(function() {
 	
 	var movieId, title, info, poster, genre, i, homepage, imdbId, imdb, imdbRating, jaar, release, director, key, filmDag, filmUur, filmZaal, a;
 	
-	
+	//session store ophalen uit vorige js
 	movieId = sessionStorage.getItem("movieId");
 	console.log(movieId);
 	
 	//open de data API voor het weergeven van films op movieId
 	$.getJSON("https://api.myjson.com/bins/3b6nb", function(data){
+		
+		//session store ophalen uit vorige js
 		movieId = sessionStorage.getItem("movieId");
-		//filmDag = data[movieId][index].Dagen[i].Dag;
-		//filmUur = data[movieId][index].Dagen[i].Uren;
-		//filmZaal = data[movieId][index].Dagen[i].Zalen;
 		
-		console.log("yes");
-		
+		//for-loop om alle gegevens weer te geven
 		for (i = 0; i < data[movieId].length; i++){
 			document.getElementById("plaats").innerHTML += "<h3 class='white'>"+data[movieId][i].Cinema+"</h3><div class='table-responsive col-md-12'><table class='table col-md-12'><thead><tr><th>Dag</th><th>Uur</th><th>Zaal</th></tr></thead><tbody id='programmatie"+i+"'></tbody></table></div>";
+			
+			//tweede for loop in eerste loop om alle gegevens weer te geven
 			for(a = 0; a < data[movieId][i].Dagen.length ; a++){
 				document.getElementById("programmatie"+i+"").innerHTML += "<tr><td>"+data[movieId][i].Dagen[a].Dag+"</td><td>"+data[movieId][i].Dagen[a].Uren+"</td><td>"+data[movieId][i].Dagen[a].Zalen+"</td></tr>";
 				
 			}
 		}
-		
-		//document.getElementById("plaats").innerHTML += "<h3 class='white'>"+cinema+"</h3>";
-		
-		/*for (i = 0; i < data[movieId].Dagen.length; i++){
-		document.getElementById("programmatie").innerHTML += "<tr><td>"+data[movieId].Dagen[i].Dag+"</td><td>"+data[movieId].Dagen[i].Uren+"</td><td>"+data[movieId].Dagen[i].Zalen+"</td></tr>";
-		}*/
 		
 		});
 		
@@ -40,9 +34,7 @@ $(document).ready(function() {
 		homepage = data.homepage;
 		imdbId = data.imdb_id;	
 	
-		
-		console.log(imdbId);
-		console.log(homepage);
+		//wegschrijven van data in html detail.md
 		
 		document.getElementById("title").innerHTML += "<h1 class='white'>"+title+"</h1>";
 		
@@ -52,18 +44,19 @@ $(document).ready(function() {
 		
 		document.getElementById("site").innerHTML += "<p class='white' id='site'>Official Website: <a class='link' target=_blank href='"+ data.homepage +"'>"+data.homepage+"</a></p>";
 		
-		
+		//weergeven van alle genres op detail.md
 		for (i = 0; i < data.genres.length; i++){
 		document.getElementById("genre").innerHTML += " "+data.genres[i].name+", ";
 		}
 		
 		
-		//open de data API voor het weergeven van imdb rating
+		//open de data API voor het weergeven van imdb rating en andere zaken 
 		$.getJSON("https://www.omdbapi.com/?i="+imdbId+"&plot=short&r=json&apikey=95882ccc", function(data2){
 		imdbRating = data2.imdbRating;
 		jaar = data2.Year;
 		release = data2.Released;
 		director = data2.Director;
+		
 		
 		document.getElementById("site").innerHTML += "<p class='white' id='site'>IMDB-rating: <span style='font-weight:bolder;font:20px'>"+imdbRating+ "</span> /10</p><hr>";
 		

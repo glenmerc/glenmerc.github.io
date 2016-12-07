@@ -2,25 +2,34 @@
 	"Bioscopen":	[
 		{
 			"Naam": "Studio Skoop",
+			"Map": "studio%20skoop",
 			"Adres": "Sint-Annaplein 63, 9000 Gent",
-			"Telefoon": "09 225 08 45",
+			"Telefoon": "09/225.08.45",
+			"Info" : "Al meer dan 40 jaar staat Studio Skoop in het Gentse gekend voor de ‘betere cinema’. Wij zijn een onafhankelijke arthouse cinema die resoluut de kaart trekt van de auteursfilm. We programmeren kwaliteitsfilms uit alle hoeken van de wereld, die internationaal worden geprezen en gelauwerd. We beschikken over 5 gezellige airco filmzalen met uitstekende digitale projectie en klank. Een bezoek aan ons uniek filmcafé loont zeker ook de moeite. Studio Skoop wordt niet structureel gefinancierd door de Vlaamse Overheid. Gelukkig kunnen we rekenen op een goede opkomst van de cinefiele Gentenaars en bezoekers van ver buiten onze geliefde Artveldestad. Studio Skoop kan bovendien ook rekenen op de steun & knowhow van enkele (inter)nationale professionele organisaties zoals Europa Cinémas, CICAE en VAC.",
 			"Website": "http://www.studioskoop.be/",
-			"Locatie-x": 3.73378182420731,
-			"locatie-y": 51.048764061465
+			"Img":"studioskoop.jpg",
+			"Locatie-x": 51.048961,
+			"locatie-y": 3.733811
 		},
 		{
-			"Naam": "Kinepolis",
+			"Naam": "Kinepolis Gent",
+			"Map": "kinepolis%20gent",
 			"Adres": "Ter Platen 12, 9000 Gent",
-			"Telefoon": "09 265 06 00",
+			"Telefoon": "09/265.06.00",
+			"Info":"Decascoop, zoals Kinepolis Gent vroeger heette, zag het licht in 1981 en was met 12 zalen en 3407 zetels op wereldniveau revolutionair. De bioscoop neemt veelal het voortouw in tal van innovaties op beeldtechnisch, geluidstechnisch en conceptueel niveau. Kinepolis Gent is partner van het Film Fest Gent en speelt een primordiale rol in het Gentse stads- en studentenleven en de Gentse economie. ",
 			"Website": "https://kinepolis.be/nl/bioscopen/kinepolis-gent",
+			"Img":"kinepolisGent.jpg",
 			"Locatie-x": 3.73012094532817,
 			"locatie-y": 51.0406312113971
 		},
 		{
 			"Naam": "Sphinx",
+			"Map": "sphinx%20gent",
 			"Adres": "Sint-Michielshelling 3, 9000 Gent",
-			"Telefoon": "09 225 60 86",
+			"Telefoon": "09/225.60.86",
+			"Info": "Sphinx kiest voor een werking én een programma met respect voor zijn lange voorgeschiedenis. Tegelijk richten we de blik op de (kwaliteits)cinema van morgen. Sinds enkele jaren wordt Sphinx door de stad Gent erkend als cultureel erfgoed. In het MIAT vind je een zaaltje dat ingericht is in de stijl van de beroemde Ciné Palace uit de jaren '30. In het archief van het Design Museum vind je nog tal van schetsen, plannen en foto's.",
 			"Website": "https://www.sphinx-cinema.be/",
+			"Img":"sphinx.jpg",
 			"Locatie-x": 3.72131952281068,
 			"locatie-y": 51.0537441929019
 		}

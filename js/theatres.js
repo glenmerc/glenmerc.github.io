@@ -36,7 +36,7 @@ $( document ).ready(function() {
 		document.getElementById("img").innerHTML += "<img class='cinemaPhoto' src='/img/"+img+"'/>";
 		
 		//geeft de coordinaten van de gebruiker terug en stored deze in vars
-		navigator.geolocation.getCurrentPosition(succes,failure);
+		navigator.geolocation.getCurrentPosition(succes,failure,{timeout:10000});
 	
 	//slaat de coordinaten op bij succes van retrieve
 	function succes(position){

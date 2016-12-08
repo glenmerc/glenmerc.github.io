@@ -74,6 +74,23 @@ $(document).ready(function() {
 			document.getElementById("video").innerHTML += "<div class='margin embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='//www.youtube.com/embed/"+key+"'></iframe></div>";
 			
 		});
+		
+		
+		$.getJSON("https://api.themoviedb.org/3/movie/"+movieId+"/similar?api_key=f32e0e7660d450db58d253702535beb2&language=en-US&page=1",function(data){
+		movieId = data.results[i].id;
+		poster = data.results[i].poster_path;
+	
+		for (i = 0; i < 6; i++){
+		document.getElementById("similar").innerHTML += "<div class='col-md-2 col-sm-4 col-xs-4'><a href='detail'><img alt='"+data.results[i].id+"' class='movieId similarPoster' src='https://image.tmdb.org/t/p/w500"+data.results[i].poster_path+"'></img></a></div>";
+		}
+		
+		//wanneer er geklikt wordt op een .movieId --> sessionstorage van alt-waarde
+			$(".movieId").on("click", function(){
+				movieId = $(this).attr("alt");
+				sessionStorage.setItem("movieId", movieId);
+				});
+		
+		});
 	
 	});	
 });

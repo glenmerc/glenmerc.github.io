@@ -13,6 +13,7 @@ title   : "New Media Design & Development I"
 		<div class="col-md-8" id="director">	</div>
 		<div class="col-md-8" id="imdb">	</div>
 		<div class="col-md-8" id="site">	</div>
+		<div class="col-md-8"><div id="similar"><h4 class="white">Similar movies</h4></div></div>
 		<div class="col-md-12" id="video"></div>
 	</div>
 	<div class="col-md-12 well">

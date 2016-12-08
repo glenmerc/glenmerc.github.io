@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	
-	var movieId, title, info, poster, genre, i, homepage, imdbId, imdb, imdbRating, jaar, release, director, key, filmDag, filmUur, filmZaal, a;
+	"use strict";
+	var movieId, title, info, poster, i, homepage, imdbId, imdbRating, jaar, release, director, key, a;
 	
 	//session store ophalen uit vorige js
 	movieId = sessionStorage.getItem("movieId");

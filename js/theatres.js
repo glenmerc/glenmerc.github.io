@@ -42,26 +42,18 @@ $( document ).ready(function() {
 	function succes(position){
 		myLat = position.coords.latitude;
 	    myLon = position.coords.longitude;
+	
+	//wegschrijven van data naar de html
+		document.getElementById("mapper").innerHTML += '<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin='+myLat+'%2C%20'+myLon+'&destination='+map+'&key=AIzaSyBYkHYFPNnydJ2j8n7n5ChCXGScwN-d3z4" allowfullscreen></iframe>';
 		
-		//sessionstore om te gebruiken in de mapper
-		sessionStorage.setItem("myLat",myLat);
-		sessionStorage.setItem("myLon",myLon);
-		}
-		
+	}
 	//geeft foutcode wanneer coordinaten niet konden gevonden	
 	function failure(){
-		$("#map").html("<p>failed to get your location</p>");
+		$("#mapper").html("<p>failed to get your location</p>");
 		}
 		
-	
 		
-	
-		myLat = sessionStorage.getItem("myLat");
-		myLon = sessionStorage.getItem("myLon");
-		
-		
-		//wegschrijven van data naar de html
-		document.getElementById("mapper").innerHTML += '<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin='+myLat+'%2C%20'+myLon+'&destination='+map+'&key=AIzaSyBYkHYFPNnydJ2j8n7n5ChCXGScwN-d3z4" allowfullscreen></iframe>';
+
 
 });
 });

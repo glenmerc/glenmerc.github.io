@@ -55,13 +55,14 @@ $( document ).ready(function() {
 			$("#btnSignUp").addClass("hide");
 			$("#btnFacebook").addClass("hide");
 			$("#btnGoogle").addClass("hide");
+			$("#btnGithub").addClass("hide");
 			$("#txtEmail").addClass("hide");
 			$("#txtPassword").addClass("hide");
 			$("#loginHeader").addClass("hide");
 			if (firebaseUser.displayName){
-				$("#logged-in").html("Logged in as "+firebaseUser.displayName+"")
+				$("#logged-in").html("Logged in as "+firebaseUser.displayName+"");
 			}else{
-				$("#logged-in").html("Logged in as "+firebaseUser.email+"")
+				$("#logged-in").html("Logged in as "+firebaseUser.email+"");
 			}
 		}else{
 			console.log("not logged in");
@@ -70,16 +71,18 @@ $( document ).ready(function() {
 			$("#btnSignUp").removeClass("hide");
 			$("#btnFacebook").removeClass("hide");
 			$("#btnGoogle").removeClass("hide");
+			$("#btnGithub").removeClass("hide");
 			$("#txtEmail").removeClass("hide");
 			$("#txtPassword").removeClass("hide");
 			$("#loginHeader").removeClass("hide");
-			$("#logged-in").html("LOGIN <span class='caret'></span>")
+			$("#logged-in").html("LOGIN <span class='caret'></span>");
 		}
 	});
 	
-	var provider = new firebase.auth.FacebookAuthProvider();
+	
 	
 	$("#btnFacebook").click(function(){
+		var provider = new firebase.auth.FacebookAuthProvider();
 		firebase.auth().signInWithPopup(provider).then(function(result) {
  			// This gives you a Facebook Access Token. You can use it to access the Facebook API.
   			var token = result.credential.accessToken;
@@ -95,11 +98,13 @@ $( document ).ready(function() {
   			// The firebase.auth.AuthCredential type that was used.
   			var credential = error.credential;
   			// ...
+		});
 	});
 	
-	var provider1 = new firebase.auth.GoogleAuthProvider();
+	
 	
 	$("#btnGoogle").click(function(){
+		var provider1 = new firebase.auth.GoogleAuthProvider();
 		firebase.auth().signInWithPopup(provider1).then(function(result) {
   			// This gives you a Google Access Token. You can use it to access the Google API.
   			var token = result.credential.accessToken;
@@ -115,8 +120,29 @@ $( document ).ready(function() {
   			// The firebase.auth.AuthCredential type that was used.
   			var credential = error.credential;
   			// ...
+		});
 	});
-});
+	
+	
+	
+	$("#btnGithub").click(function(){
+		var provider2 = new firebase.auth.GithubAuthProvider();
+		firebase.auth().signInWithPopup(provider2).then(function(result) {
+  			// This gives you a Google Access Token. You can use it to access the Google API.
+  			var token = result.credential.accessToken;
+  			// The signed-in user info.
+  			var user = result.user;
+  			// ...
+		}).catch(function(error) {
+  			// Handle Errors here.
+  			var errorCode = error.code;
+  			var errorMessage = error.message;
+  			// The email of the user's account used.
+  			var email = error.email;
+  			// The firebase.auth.AuthCredential type that was used.
+  			var credential = error.credential;
+  			// ...
+	});
 	
 	
 	});

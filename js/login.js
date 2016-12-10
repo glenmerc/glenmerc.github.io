@@ -80,9 +80,10 @@ $( document ).ready(function() {
 	});
 	
 	
+	var provider = new firebase.auth.FacebookAuthProvider();
 	
 	$("#btnFacebook").click(function(){
-		var provider = new firebase.auth.FacebookAuthProvider();
+		
 		firebase.auth().signInWithPopup(provider).then(function(result) {
  			// This gives you a Facebook Access Token. You can use it to access the Facebook API.
   			var token = result.credential.accessToken;
@@ -102,9 +103,9 @@ $( document ).ready(function() {
 	});
 	
 	
-	
+	var provider1 = new firebase.auth.GoogleAuthProvider();
 	$("#btnGoogle").click(function(){
-		var provider1 = new firebase.auth.GoogleAuthProvider();
+		
 		firebase.auth().signInWithPopup(provider1).then(function(result) {
   			// This gives you a Google Access Token. You can use it to access the Google API.
   			var token = result.credential.accessToken;
@@ -124,9 +125,9 @@ $( document ).ready(function() {
 	});
 	
 	
-	
+	var provider2 = new firebase.auth.GithubAuthProvider();
 	$("#btnGithub").click(function(){
-		var provider2 = new firebase.auth.GithubAuthProvider();
+		
 		firebase.auth().signInWithPopup(provider2).then(function(result) {
   			// This gives you a Google Access Token. You can use it to access the Google API.
   			var token = result.credential.accessToken;

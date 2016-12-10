@@ -37,7 +37,6 @@ margin-bottom: 10px;
 }
 
 input {
-
 background-color: #ECF0F1;
 border: 2px solid transparent;
 border-radius: 3px;
@@ -85,10 +84,16 @@ box-shadow: none;
 	display:none;
 	}
 
-.dropdown-menu {
+#loginMenu {
 	background-color:#396a77 !important;
 	}
 	
 .marginSocial {
 	margin:20px;
 	}
+	
+#map {
+  width:100%;
+  height: 400px;
+  margin: 0;
+}

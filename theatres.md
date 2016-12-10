@@ -16,6 +16,7 @@ title   : "New Media Design & Development I"
 			</div>
 	</div>
 	<div class="col-md-12 well">
-		<div id="mapper"></div>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoCItKNHRewPwW1Sdt4uQzeNCndroK_xA"></script>
+		<div id="map"></div>
 	</div>
 </div>

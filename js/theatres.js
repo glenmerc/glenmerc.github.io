@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-	var theatreValue, naam, adres,position, map, telefoon, website, info, img, locationLat, locationLon, position, myLat, myLon;
+	var theatreValue, naam, adres,position, map, telefoon, website, info, img, locationLat, locationLon, position, myLat, myLon, lat, lng;
 
 	
 	//geeft value weer van de theatrelist dropdown
@@ -18,7 +18,7 @@ $( document ).ready(function() {
 	
 		
 	//open local json file voor info van bioscopen
-	$.getJSON("https://api.myjson.com/bins/3jo7b", function(data){
+	$.getJSON("https://api.myjson.com/bins/3i9zj", function(data){
 		naam = data.Bioscopen[theatreValue].Naam;
 		map = data.Bioscopen[theatreValue].Map;
 		telefoon = data.Bioscopen[theatreValue].Telefoon;
@@ -26,6 +26,8 @@ $( document ).ready(function() {
 		adres = data.Bioscopen[theatreValue].Adres;
 		info = data.Bioscopen[theatreValue].Info;
 		img = data.Bioscopen[theatreValue].Img;
+		lat = data.Bioscopen[theatreValue].Lat;
+		lng = data.Bioscopen[theatreValue].Lng;
 		
 		//wegschrijven van data naar de html
 		document.getElementById("naam").innerHTML += ""+naam+"";
@@ -35,7 +37,7 @@ $( document ).ready(function() {
 		document.getElementById("info").innerHTML += ""+info+"";
 		document.getElementById("img").innerHTML += "<img class='cinemaPhoto' src='/img/"+img+"'/>";
 		
-		//geeft de coordinaten van de gebruiker terug en stored deze in vars
+		/*geeft de coordinaten van de gebruiker terug en stored deze in vars
 		navigator.geolocation.getCurrentPosition(succes,failure,{timeout:10000});
 	
 	//slaat de coordinaten op bij succes van retrieve
@@ -44,17 +46,41 @@ $( document ).ready(function() {
 	    myLon = position.coords.longitude;
 	
 	//wegschrijven van data naar de html
-		document.getElementById("mapper").innerHTML += '<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin='+myLat+'%2C%20'+myLon+'&destination='+map+'&key=AIzaSyBYkHYFPNnydJ2j8n7n5ChCXGScwN-d3z4" allowfullscreen></iframe>';
+		document.getElementById("mapper").innerHTML += '<div id="map"></div>';
 	
 	}
 	//geeft foutcode wanneer coordinaten niet konden worden gevonden	
 	function failure(){
 		$("#mapper").html("<p>failed to get your location</p>");
-		}
+		}*/
+		
+		var mapOptions = {
+    		center: new google.maps.LatLng(lat, lng),
+    		zoom: 15,
+    		mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+		var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+		var markerOptions = {
+    		position: new google.maps.LatLng(lat, lng),
+			icon: 'https://cdn4.iconfinder.com/data/icons/ballicons-2-new-generation-of-flat-icons/100/popcorn-32.png'
+			};
+		var marker = new google.maps.Marker(markerOptions);
+		marker.setMap(map);
+		
+		var infoWindowOptions = {
+    		content: ''+naam+' Is Here!'
+			};
+
+		var infoWindow = new google.maps.InfoWindow(infoWindowOptions);
+		google.maps.event.addListener(marker,'click',function(e){
+  
+  		infoWindow.open(map, marker);
 		
 		
-
-
+  
+});
+		
 });
 });
 	

@@ -53,11 +53,27 @@ $( document ).ready(function() {
 			$("#btnLogout").removeClass("hide");
 			$("#btnLogin").addClass("hide");
 			$("#btnSignUp").addClass("hide");
+			$("#btnFacebook").addClass("hide");
+			$("#btnGoogle").addClass("hide");
+			$("#txtEmail").addClass("hide");
+			$("#txtPassword").addClass("hide");
+			$("#loginHeader").addClass("hide");
+			if (firebaseUser.displayName){
+				$("#logged-in").html("Logged in as "+firebaseUser.displayName+"")
+			}else{
+				$("#logged-in").html("Logged in as "+firebaseUser.email+"")
+			}
 		}else{
 			console.log("not logged in");
 			$("#btnLogout").addClass("hide");
 			$("#btnLogin").removeClass("hide");
 			$("#btnSignUp").removeClass("hide");
+			$("#btnFacebook").removeClass("hide");
+			$("#btnGoogle").removeClass("hide");
+			$("#txtEmail").removeClass("hide");
+			$("#txtPassword").removeClass("hide");
+			$("#loginHeader").removeClass("hide");
+			$("#logged-in").html("LOGIN <span class='caret'></span>")
 		}
 	});
 	

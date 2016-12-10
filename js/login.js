@@ -103,7 +103,7 @@ $( document ).ready(function() {
 	});
 	
 	
-	var provider1 = new firebase.auth.GoogleAuthProvider();
+	/*var provider1 = new firebase.auth.GoogleAuthProvider();
 	$("#btnGoogle").click(function(){
 		
 		firebase.auth().signInWithPopup(provider1).then(function(result) {
@@ -143,8 +143,6 @@ $( document ).ready(function() {
   			// The firebase.auth.AuthCredential type that was used.
   			var credential = error.credential;
   			// ...
-	});
-	
-	
-	});
+		});
+	});*/
 });

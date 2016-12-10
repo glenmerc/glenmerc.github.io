@@ -103,7 +103,7 @@ $( document ).ready(function() {
 	});
 	
 	
-	/*var provider1 = new firebase.auth.GoogleAuthProvider();
+	var provider1 = new firebase.auth.GoogleAuthProvider();
 	$("#btnGoogle").click(function(){
 		
 		firebase.auth().signInWithPopup(provider1).then(function(result) {
@@ -144,5 +144,5 @@ $( document ).ready(function() {
   			var credential = error.credential;
   			// ...
 		});
-	});*/
+	});
 });

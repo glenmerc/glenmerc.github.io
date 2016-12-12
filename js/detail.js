@@ -8,23 +8,70 @@ $(document).ready(function() {
 	console.log(movieId);
 	
 	//open de data API voor het weergeven van films op movieId
-	$.getJSON("https://api.myjson.com/bins/3b6nb", function(data){
+	$.getJSON("https://api.myjson.com/bins/6rf71", function(data){
 		
 		//session store ophalen uit vorige js
 		movieId = sessionStorage.getItem("movieId");
 		
 		//for-loop om alle gegevens weer te geven
 		for (i = 0; i < data[movieId].length; i++){
-			document.getElementById("plaats").innerHTML += "<h3 class='white'>"+data[movieId][i].Cinema+"</h3><div class='table-responsive col-md-12'><table class='table col-md-12'><thead><tr><th>Dag</th><th>Uur</th><th>Zaal</th></tr></thead><tbody id='programmatie"+i+"'></tbody></table></div>";
+			document.getElementById("plaats").innerHTML += "<li role='presentation' id='test"+[i]+"'><a class='white'>"+data[movieId][i].Cinema+"</a></li>";
 			
-			//tweede for loop in eerste loop om alle gegevens weer te geven
-			for(a = 0; a < data[movieId][i].Dagen.length ; a++){
-				document.getElementById("programmatie"+i+"").innerHTML += "<tr><td>"+data[movieId][i].Dagen[a].Dag+"</td><td>"+data[movieId][i].Dagen[a].Uren+"</td><td>"+data[movieId][i].Dagen[a].Zalen+"</td></tr>";
-				
-			}
+			
+			
+			
 		}
 		
+		function basic(){
+			document.getElementById("gegevens").innerHTML ="";
+			$("#test0").addClass("active");
+			$("#test1").removeClass("active");
+			$("#test2").removeClass("active");
+			
+			for (i = 0; i < data[movieId][0].Dagen.length; i++){
+				document.getElementById("gegevens").innerHTML += "<tr><td><h5>"+data[movieId][0].Dagen[i].Dag+"</h5></td><td><h5>"+data[movieId][0].Dagen[i].Uren+"</h5></td><td><h5>"+data[movieId][0].Dagen[i].Zalen+"</h5></td></tr>";
+				}
+			}
+		basic();
+			
+		$("#test0").on("click", function(){
+			document.getElementById("gegevens").innerHTML ="";
+			$("#test0").addClass("active");
+			$("#test1").removeClass("active");
+			$("#test2").removeClass("active");
+			
+			for (i = 0; i < data[movieId][0].Dagen.length; i++){
+				document.getElementById("gegevens").innerHTML += "<tr><td><h5>"+data[movieId][0].Dagen[i].Dag+"</h5></td><td><h5>"+data[movieId][0].Dagen[i].Uren+"</h5></td><td><h5>"+data[movieId][0].Dagen[i].Zalen+"</h5></td></tr>";
+				}
+			});
+			
+		$("#test1").on("click", function(){
+			document.getElementById("gegevens").innerHTML ="";
+			$("#test0").removeClass("active");
+			$("#test1").addClass("active");
+			$("#test2").removeClass("active");
+			
+			for (i = 0; i < data[movieId][1].Dagen.length; i++){
+				document.getElementById("gegevens").innerHTML += "<tr><td><h5>"+data[movieId][1].Dagen[i].Dag+"</h5></td><td><h5>"+data[movieId][1].Dagen[i].Uren+"</h5></td><td><h5>"+data[movieId][1].Dagen[i].Zalen+"</h5></td></tr>";
+				}
+			
+			});
+			
+		$("#test2").on("click", function(){
+			document.getElementById("gegevens").innerHTML ="";
+			$("#test0").removeClass("active");
+			$("#test1").removeClass("active");
+			$("#test2").addClass("active");
+			
+			for (i = 0; i < data[movieId][2].Dagen.length; i++){
+				document.getElementById("gegevens").innerHTML += "<tr><td><h5>"+data[movieId][2].Dagen[i].Dag+"</h5></td><td><h5>"+data[movieId][2].Dagen[i].Uren+"</h5></td><td><h5>"+data[movieId][2].Dagen[i].Zalen+"</h5></td></tr>";
+				}
+			
+			});
+		
+		
 		});
+		
 		
 	
 	//open de data API voor het weergeven van films op movieId

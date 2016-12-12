@@ -18,6 +18,20 @@ title   : "New Media Design & Development I"
 	</div>
 	<div class="col-md-12 well">
 	<div class="col-md-12" id=""><h1 class="white">Programmatie</h1></div>
-		<div class="col-md-12" id="plaats">	</div>	
+		<ul class="nav nav-tabs nav-justified" id="plaats"></ul>
+		<div class="table-responsive">
+			<table class="col-md-12 margin table-hover table">
+				<thead>
+					<tr>
+						<th class="white"><h3>Dag</h3></th>
+						<th class="white"><h3>Uren</h3></th>
+						<th class="white"><h3>Zaal</h3></th>
+					</tr>
+				</thead>
+				<tbody id="gegevens">
+				</tbody>
+			</table>
+		</div>
+		<!--<div class="col-md-12" id="plaats">	</div>-->	
 	</div>
 </div>

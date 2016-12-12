@@ -12,27 +12,33 @@ $(document).ready(function() {
 		
 		//session store ophalen uit vorige js
 		movieId = sessionStorage.getItem("movieId");
+		console.log(data[movieId]);
+		
+		
+		//if geen programmatie
+			if (data[movieId] === undefined){
+				$("#programmatie").addClass("hide");
+				}
+	
 		
 		//for-loop om alle gegevens weer te geven
 		for (i = 0; i < data[movieId].length; i++){
-			document.getElementById("plaats").innerHTML += "<li role='presentation' id='test"+[i]+"'><a class='white'>"+data[movieId][i].Cinema+"</a></li>";
-			
-			
-			
-			
+			document.getElementById("plaats").innerHTML += "<li role='presentation' id='test"+[i]+"'><a class='white'>"+data[movieId][i].Cinema+"</a></li>";	
 		}
+		
 		
 		function basic(){
 			document.getElementById("gegevens").innerHTML ="";
 			$("#test0").addClass("active");
 			$("#test1").removeClass("active");
 			$("#test2").removeClass("active");
-			
+		
 			for (i = 0; i < data[movieId][0].Dagen.length; i++){
-				document.getElementById("gegevens").innerHTML += "<tr><td><h5>"+data[movieId][0].Dagen[i].Dag+"</h5></td><td><h5>"+data[movieId][0].Dagen[i].Uren+"</h5></td><td><h5>"+data[movieId][0].Dagen[i].Zalen+"</h5></td></tr>";
+				document.getElementById("gegevens").innerHTML += "<tr><td><h5 class='white'>"+data[movieId][0].Dagen[i].Dag+"</h5></td><td><h5 class='white'>"+data[movieId][0].Dagen[i].Uren+"</h5></td><td><h5 class='white'>"+data[movieId][0].Dagen[i].Zalen+"</h5></td></tr>";
 				}
 			}
 		basic();
+			
 			
 		$("#test0").on("click", function(){
 			document.getElementById("gegevens").innerHTML ="";
@@ -41,7 +47,7 @@ $(document).ready(function() {
 			$("#test2").removeClass("active");
 			
 			for (i = 0; i < data[movieId][0].Dagen.length; i++){
-				document.getElementById("gegevens").innerHTML += "<tr><td><h5>"+data[movieId][0].Dagen[i].Dag+"</h5></td><td><h5>"+data[movieId][0].Dagen[i].Uren+"</h5></td><td><h5>"+data[movieId][0].Dagen[i].Zalen+"</h5></td></tr>";
+				document.getElementById("gegevens").innerHTML += "<tr><td><h5 class='white'>"+data[movieId][0].Dagen[i].Dag+"</h5></td><td><h5 class='white'>"+data[movieId][0].Dagen[i].Uren+"</h5></td><td><h5 class='white'>"+data[movieId][0].Dagen[i].Zalen+"</h5></td></tr>";
 				}
 			});
 			
@@ -52,7 +58,7 @@ $(document).ready(function() {
 			$("#test2").removeClass("active");
 			
 			for (i = 0; i < data[movieId][1].Dagen.length; i++){
-				document.getElementById("gegevens").innerHTML += "<tr><td><h5>"+data[movieId][1].Dagen[i].Dag+"</h5></td><td><h5>"+data[movieId][1].Dagen[i].Uren+"</h5></td><td><h5>"+data[movieId][1].Dagen[i].Zalen+"</h5></td></tr>";
+				document.getElementById("gegevens").innerHTML += "<tr><td><h5 class='white'>"+data[movieId][1].Dagen[i].Dag+"</h5></td><td><h5 class='white'>"+data[movieId][1].Dagen[i].Uren+"</h5></td><td><h5 class='white'>"+data[movieId][1].Dagen[i].Zalen+"</h5></td></tr>";
 				}
 			
 			});
@@ -64,7 +70,7 @@ $(document).ready(function() {
 			$("#test2").addClass("active");
 			
 			for (i = 0; i < data[movieId][2].Dagen.length; i++){
-				document.getElementById("gegevens").innerHTML += "<tr><td><h5>"+data[movieId][2].Dagen[i].Dag+"</h5></td><td><h5>"+data[movieId][2].Dagen[i].Uren+"</h5></td><td><h5>"+data[movieId][2].Dagen[i].Zalen+"</h5></td></tr>";
+				document.getElementById("gegevens").innerHTML += "<tr><td><h5 class='white'>"+data[movieId][2].Dagen[i].Dag+"</h5></td><td><h5 class='white'>"+data[movieId][2].Dagen[i].Uren+"</h5></td><td><h5 class='white'>"+data[movieId][2].Dagen[i].Zalen+"</h5></td></tr>";
 				}
 			
 			});
@@ -138,8 +144,11 @@ $(document).ready(function() {
 				});
 		
 		});
+		
+		
 	
 	});	
+	
 });
 
 

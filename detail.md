@@ -16,7 +16,7 @@ title   : "New Media Design & Development I"
 		<div class="col-md-8"><div id="similar"><h4 class="white">Similar movies</h4></div></div>
 		<div class="col-md-12" id="video"></div>
 	</div>
-	<div class="col-md-12 well">
+	<div class="col-md-12 well" id="programmatie">
 	<div class="col-md-12" id=""><h1 class="white">Programmatie</h1></div>
 		<ul class="nav nav-tabs nav-justified" id="plaats"></ul>
 		<div class="table-responsive">

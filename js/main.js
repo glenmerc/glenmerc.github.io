@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	
-	var i, data, genreId, movie, poster, movieId;
+	var i, data, genreId, movie, poster, movieId, a, page, url;
 		
 	//open de data API voor aanmaak van genre Buttons op index
 	$.getJSON("https://api.themoviedb.org/3/genre/movie/list?api_key=f32e0e7660d450db58d253702535beb2&language=en-us", function(data){
@@ -31,13 +31,30 @@ $( document ).ready(function() {
 	genreId = sessionStorage.getItem("genreId");
 	console.log(genreId);
 	
+		page = 1;
+		$("#prev").on("click", function(){
+			page--;
+			console.log(page);
+			sessionStorage.setItem("page", page);
+			window.location.href = "result";
+			});
+			
+		$("#next").on("click", function(){
+			page++;
+			console.log(page);
+			sessionStorage.setItem("page", page);
+			window.location.href = "result";
+			});
 	
 	//if, de nowplaying is geen genre en heeft dus een andere behandeling nodig
-	if (genreId === "0"){
+	if (genreId === "0"){	
+		
+		$("#pager").addClass("hide");
+		url = "https://api.themoviedb.org/3/movie/now_playing?api_key=f32e0e7660d450db58d253702535beb2&language=en-US";
 		//open de data API voor het weergeven van "now playing"
-		$.getJSON("https://api.themoviedb.org/3/movie/now_playing?api_key=f32e0e7660d450db58d253702535beb2&language=en-US", function(data){
+		$.getJSON(url, function(data){
 			//aanmaak van elke film
-			for (i = 0; i < data.results.length; i++) {
+			for (i = 0; i < 18; i++) {
 				movie = data.results[i].original_title;
 				poster = data.results[i].poster_path;
 				movieId = data.results[i].id;
@@ -52,8 +69,10 @@ $( document ).ready(function() {
 			
 		});
 	}else{
+		//get page
+		page = sessionStorage.getItem("page");
 		//open de data API voor het weergeven van films op genre
-		$.getJSON("https://api.themoviedb.org/3/genre/"+ genreId +"/movies?api_key=f32e0e7660d450db58d253702535beb2&language=en-US&include_adult=false&sort_by=created_at.asc", function(data){
+		$.getJSON("https://api.themoviedb.org/3/genre/"+ genreId +"/movies?api_key=f32e0e7660d450db58d253702535beb2&language=en-US&include_adult=false&sort_by=created_at.asc&page="+page+"", function(data){
 		
 			//aanmaak van elke film
 			for (i = 0; i < data.results.length; i++) {

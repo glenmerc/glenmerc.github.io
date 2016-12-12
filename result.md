@@ -7,4 +7,10 @@ title   : "New Media Design & Development I"
 	<div id="movies" class="row">
 		
 	</div>
+	<nav aria-label="...">
+  		<ul class="pager" id="pager">
+   			<button class="btn btn-primary" id="prev">Previous</button>
+   			<button class="btn btn-primary" id="next">Next</button>
+		</ul>
+	</nav>
 </div>

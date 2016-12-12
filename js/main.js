@@ -31,20 +31,6 @@ $( document ).ready(function() {
 	genreId = sessionStorage.getItem("genreId");
 	console.log(genreId);
 	
-		page = 1;
-		$("#prev").on("click", function(){
-			page--;
-			console.log(page);
-			sessionStorage.setItem("page", page);
-			window.location.href = "result";
-			});
-			
-		$("#next").on("click", function(){
-			page++;
-			console.log(page);
-			sessionStorage.setItem("page", page);
-			window.location.href = "result";
-			});
 	
 	//if, de nowplaying is geen genre en heeft dus een andere behandeling nodig
 	if (genreId === "0"){	
@@ -69,18 +55,39 @@ $( document ).ready(function() {
 			
 		});
 	}else{
-		//get page
+		
+		
+		$("#prev").on("click", function(){
+		page--;
+		sessionStorage.setItem("page", page);
+		location.reload();
+		});
+			
+		$("#next").on("click", function(){
+		page++;
+		sessionStorage.setItem("page", page);
+		location.reload();
+		});	
+		
+		
 		page = sessionStorage.getItem("page");
+		if (page == 1){
+			$("#prev").addClass("hide");
+		}else{
+			$("#prev").removeClass("hide");
+		}
+		
 		//open de data API voor het weergeven van films op genre
 		$.getJSON("https://api.themoviedb.org/3/genre/"+ genreId +"/movies?api_key=f32e0e7660d450db58d253702535beb2&language=en-US&include_adult=false&sort_by=created_at.asc&page="+page+"", function(data){
-		
 			//aanmaak van elke film
-			for (i = 0; i < data.results.length; i++) {
+			console.log(page);
+			for (i = 0; i < 18; i++) {
 			movie = data.results[i].original_title;
 			poster = data.results[i].poster_path;
 			movieId = data.results[i].id;
     		document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail'><img class='posterSize movieId' alt='"+movieId+"' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></div>";
 			}
+			
 			
 			//wanneer er geklikt wordt op een .movieId --> sessionstorage van alt-waarde
 			$(".movieId").on("click", function(){

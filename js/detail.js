@@ -12,8 +12,6 @@ $(document).ready(function() {
 		
 		//session store ophalen uit vorige js
 		movieId = sessionStorage.getItem("movieId");
-		console.log(data[movieId]);
-		
 		
 		//if geen programmatie
 			if (data[movieId] === undefined){

@@ -75,6 +75,34 @@ body {
 	height:250px;
 	}
 	
+@media only screen and (max-device-width: 320px) {
+		
+    /* iPhone only */
+	.movieVast{
+	margin-bottom: 50px;
+	width:100%;
+	}
+	
+	.movieId{
+	height:170px;
+	}
+	
+}
+
+@media only screen and (max-device-width: 414px) {
+		
+    /* iPhone only */
+	.movieVast{
+	margin-bottom: 50px;
+	width:100%;
+	}
+	
+	.movieId{
+	height:170px;
+	}
+	
+}
+	
 .textVast{
 	height:30px;
 	color:white;

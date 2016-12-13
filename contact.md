@@ -16,23 +16,23 @@ title   : "New Media Design & Development I"
    					<h4 class="white">Contact</h4><hr>
 					<div class="form-group float-label-control">
                         <label for="">Name</label>
-                        <input type="name" class="form-control" placeholder="Name" name="Name">
+                        <input type="name" class="form-control contactForm" placeholder="Name" name="Name">
                     </div>
 					<div class="form-group float-label-control">
                         <label for="">Email</label>
-                        <input type="email" class="form-control" placeholder="Email-address" name="Email">
+                        <input type="email" class="form-control contactForm" placeholder="Email-address" name="Email">
                     </div>
 					<div class="form-group float-label-control">
                         <label for="">Phone number</label>
-                        <input type="number" class="form-control" placeholder="Phone number" name="Phone number">
+                        <input type="number" class="form-control contactForm" placeholder="Phone number" name="Phone number">
                     </div>
 					<div class="form-group float-label-control">
                         <label for="">Subject</label>
-                        <input type="subject" class="form-control" placeholder="What is your question about?" name="subject">
+                        <input type="subject" class="form-control contactForm" placeholder="What is your question about?" name="subject">
                     </div>
                     <div class="form-group float-label-control">
                         <label for="">Message</label>
-                        <textarea class="form-control" placeholder="Type here your message" rows="1" name="Message"></textarea>
+                        <textarea class="form-control contactForm" placeholder="Type here your message" rows="1" name="Message"></textarea>
                  	</div>
 					<br>
     				<button type="submit" value="Send" class="btn btn-primary">Send my message</button>

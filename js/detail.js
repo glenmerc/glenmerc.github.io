@@ -1,14 +1,14 @@
 $(document).ready(function() {
 	
 	"use strict";
-	var movieId, title, info, poster, i, homepage, imdbId, imdbRating, jaar, release, director, key, a;
+	var movieId, title, info, poster, i, homepage, imdbId, imdbRating, jaar, release, director, key, a, genreId;
 	
 	//session store ophalen uit vorige js
 	movieId = sessionStorage.getItem("movieId");
 	console.log(movieId);
 	
 	//open de data API voor het weergeven van films op movieId
-	$.getJSON("https://api.myjson.com/bins/6rf71", function(data){
+	$.getJSON("https://api.myjson.com/bins/jzoc1", function(data){
 		
 		//session store ophalen uit vorige js
 		movieId = sessionStorage.getItem("movieId");
@@ -146,6 +146,8 @@ $(document).ready(function() {
 		
 	
 	});	
+	
+	
 	
 });
 

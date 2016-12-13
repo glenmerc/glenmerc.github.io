@@ -1,11 +1,12 @@
 $( document ).ready(function() {
 	
-	var i, data, genreId, movie, poster, movieId, a, page, url;
+	"use strict";
+	var i, genreId, movie, posterId, posterPre, poster, movieId, page, url, theatreValue;
 		
-	//open de data API voor aanmaak van genre Buttons op index
+	//open de data API voor aanmaak van genre options op index
 	$.getJSON("https://api.themoviedb.org/3/genre/movie/list?api_key=f32e0e7660d450db58d253702535beb2&language=en-us", function(data){
 		
-		//aanmaak van alle genre buttons op index
+		//aanmaak van alle genre options op index
 		for (i = 0; i < data.genres.length; i++) {
 		document.getElementById("genreOptionsInput").innerHTML += "<option value='"+ data.genres[i].id +"'>"+ data.genres[i].name+"</option>";
 		}	
@@ -28,74 +29,17 @@ $( document ).ready(function() {
     	});
 	
 	});
-	genreId = sessionStorage.getItem("genreId");
-	console.log(genreId);
 	
-	
-	//if, de nowplaying is geen genre en heeft dus een andere behandeling nodig
-	if (genreId === "0"){	
+	//geeft value weer van de theatrelist dropdown
+	$(".theatreList").on("click", function(){
+		theatreValue = this.value;
 		
-		$("#pager").addClass("hide");
-		url = "https://api.themoviedb.org/3/movie/now_playing?api_key=f32e0e7660d450db58d253702535beb2&language=en-US";
-		//open de data API voor het weergeven van "now playing"
-		$.getJSON(url, function(data){
-			//aanmaak van elke film
-			for (i = 0; i < 18; i++) {
-				movie = data.results[i].original_title;
-				poster = data.results[i].poster_path;
-				movieId = data.results[i].id;
-    			document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail'><img class='posterSize movieId' alt='"+movieId+"' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></div>";
-			}
-			
-			//wanneer er geklikt wordt op een .movieId --> sessionstorage van alt-waarde
-			$(".movieId").on("click", function(){
-				movieId = $(this).attr("alt");
-				sessionStorage.setItem("movieId", movieId);
-				});
-			
-		});
-	}else{
+		//sessionstorage voor gebruik in andere functie
+		sessionStorage.setItem("theatreValue",theatreValue);
 		
-		
-		$("#prev").on("click", function(){
-		page--;
-		sessionStorage.setItem("page", page);
-		location.reload();
-		});
-			
-		$("#next").on("click", function(){
-		page++;
-		sessionStorage.setItem("page", page);
-		location.reload();
-		});	
-		
-		
-		page = sessionStorage.getItem("page");
-		if (page == 1){
-			$("#prev").addClass("hide");
-		}else{
-			$("#prev").removeClass("hide");
-		}
-		
-		//open de data API voor het weergeven van films op genre
-		$.getJSON("https://api.themoviedb.org/3/genre/"+ genreId +"/movies?api_key=f32e0e7660d450db58d253702535beb2&language=en-US&include_adult=false&sort_by=created_at.asc&page="+page+"", function(data){
-			//aanmaak van elke film
-			console.log(page);
-			for (i = 0; i < 18; i++) {
-			movie = data.results[i].original_title;
-			poster = data.results[i].poster_path;
-			movieId = data.results[i].id;
-    		document.getElementById("movies").innerHTML += "<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail'><img class='posterSize movieId' alt='"+movieId+"' src='https://image.tmdb.org/t/p/w500" + poster + "'/><p class='textVast'>"+ movie +"</p></a></div></div>";
-			}
-			
-			
-			//wanneer er geklikt wordt op een .movieId --> sessionstorage van alt-waarde
-			$(".movieId").on("click", function(){
-				movieId = $(this).attr("alt");
-				sessionStorage.setItem("movieId", movieId);
-				});
-		});
-	}
+		//zend ons door naar pagina waar info wordt weergegeven
+		window.location.href = "theatres";
+	});
 	
 	//open de data API voor aanmaak van genre Buttons op index
 	$.getJSON("https://api.themoviedb.org/3/genre/movie/list?api_key=f32e0e7660d450db58d253702535beb2&language=en-us", function(data){
@@ -114,13 +58,4 @@ $( document ).ready(function() {
 			window.location.href = "result";
 			});	
 	});
-	
-	//bij klik op de button verschijnen/verdwijnen de verschillende genres op de index
-	$("#genreOptions").hide();
-	$(".btnmarge").on("click",function(){
-		$("#genreOptions").fadeToggle("show","swing");
-		});
-	
-	
-	
 });

@@ -11,6 +11,7 @@ title   : "New Media Design & Development I"
   		<ul class="pager" id="pager">
    			<button class="btn btn-primary" id="prev">Previous</button>
    			<button class="btn btn-primary" id="next">Next</button>
+			<p id="page"></p>
 		</ul>
 	</nav>
 </div>

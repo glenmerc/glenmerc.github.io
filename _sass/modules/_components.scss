@@ -1,3 +1,4 @@
+/* responsive Video */
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -15,6 +16,8 @@
     height: 100%;
 }
 
+
+/* login-menu */
 .login {
 width: 300px;
 }
@@ -80,10 +83,6 @@ box-shadow: none;
 	margin-top: 12px;
 }
 
-.hide {
-	display:none;
-	}
-
 #loginMenu {
 	background-color:#396a77 !important;
 	height:auto !important;
@@ -98,3 +97,8 @@ box-shadow: none;
   height: 400px;
   margin: 0;
 }
+
+/*timeline*/
+#timeline {
+	
+	}

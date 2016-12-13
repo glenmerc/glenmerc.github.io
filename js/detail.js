@@ -21,7 +21,7 @@ $(document).ready(function() {
 		
 		//for-loop om alle gegevens weer te geven
 		for (i = 0; i < data[movieId].length; i++){
-			document.getElementById("plaats").innerHTML += "<li role='presentation' id='test"+[i]+"'><a class='white'>"+data[movieId][i].Cinema+"</a></li>";	
+			document.getElementById("plaats").innerHTML += "<li role='presentation' id='cinema"+[i]+"'><a class='white'>"+data[movieId][i].Cinema+"</a></li>";	
 		}
 		
 		
@@ -35,7 +35,7 @@ $(document).ready(function() {
 				document.getElementById("gegevens").innerHTML += "<tr><td><h5 class='white'>"+data[movieId][0].Dagen[i].Dag+"</h5></td><td><h5 class='white'>"+data[movieId][0].Dagen[i].Uren+"</h5></td><td><h5 class='white'>"+data[movieId][0].Dagen[i].Zalen+"</h5></td></tr>";
 				}
 			}
-		basic();
+		
 			
 			
 		$("#test0").on("click", function(){

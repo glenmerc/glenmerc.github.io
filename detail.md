@@ -16,10 +16,14 @@ title   : "New Media Design & Development I"
 		<div class="col-md-8"><div id="similar"><h4 class="white">Similar movies</h4></div></div>
 		<div class="col-md-12" id="video"></div>
 	</div>
-	<div class="col-md-12 well" id="programmatie">
-	<div class="col-md-12" id=""><h1 class="white">Programmatie</h1></div>
-		<ul class="nav nav-tabs nav-justified" id="plaats"></ul>
-		<div class="table-responsive">
+	<div class="col-md-12 well" id="programmatie" style=""> 
+		<div class="col-md-12" id=""><h1 class="white">Programmatie</h1></div>
+			<ul class="nav nav-tabs nav-justified" id="plaats"></ul>	
+			<div id="gegevens" class="col-md-12 margin gegevens" style="height: 390px;"></div>
+		</div>
+	</div>
+</div>
+			<!--<div class="table-responsive">
 			<table class="col-md-12 margin table-hover table">
 				<thead>
 					<tr>
@@ -32,6 +36,4 @@ title   : "New Media Design & Development I"
 				</tbody>
 			</table>
 		</div>
-		<!--<div class="col-md-12" id="plaats">	</div>-->	
-	</div>
-</div>
+		<div class="col-md-12" id="plaats">	</div>-->

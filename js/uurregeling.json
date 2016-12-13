@@ -3,8 +3,8 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"20u00",
+						"Dag":"Maandag",
+						"Uren":"20,00",
 						"Zalen":"Zaal 1"
 					},
 					{
@@ -14,12 +14,12 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 1"
 					},
 					{
@@ -29,30 +29,30 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 1"
 					}]
 			},
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"18u30, 22u00",
+						"Dag":"Maandag",
+						"Uren":"18,30",
 						"Zalen":"Zaal 6"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u30",
+						"Uren":"20,30",
 						"Zalen":"Zaal 6"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"14u00, 17u30, 21u00",
+						"Uren":"14,00",
 						"Zalen":"Zaal 6"
 					},
 					{
@@ -62,35 +62,35 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"16u45, 20u30",
+						"Uren":"16,45",
 						"Zalen":"Zaal 6"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"15u00, 18u00, 21u00",
+						"Uren":"15,00",
 						"Zalen":"Zaal 6"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"18u30, 22u00",
+						"Uren":"18,30",
 						"Zalen":"Zaal 6"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"21",
+						"Zalen":"Zaal 3"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 3"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"22u00",
+						"Uren":"22,00",
 						"Zalen":"Zaal 3"
 					},
 					{
@@ -100,7 +100,7 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 3"
 					},	
 					{
@@ -121,8 +121,8 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"22u30",
+						"Dag":"Maandag",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -132,7 +132,7 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -142,30 +142,30 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 22u30",
+						"Uren":" 22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					}]
 			},
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"17u30, 22u00",
+						"Dag":"Maandag",
+						"Uren":"17,30",
 						"Zalen":"Zaal 9"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 9"
 					},
 					{
@@ -175,35 +175,35 @@
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"18u30, 22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 9"
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"19u00",
+						"Uren":"19,00",
 						"Zalen":"Zaal 9"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 19u00, 21u30",
+						"Uren":"21,30",
 						"Zalen":"Zaal 9"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"16u00, 20u30",
+						"Uren":"20,30",
 						"Zalen":"Zaal 9"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"21",
+						"Zalen":"Zaal 3"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 3"
 					},
 					{
@@ -213,7 +213,7 @@
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 3"
 					},
 					{
@@ -223,12 +223,12 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 3"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"14u00, 22u30",
+						"Uren":"14,00",
 						"Zalen":"Zaal 3"
 					}]
 			}],
@@ -237,18 +237,18 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"18",
+						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 1"
 					},
 					{
@@ -258,7 +258,7 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 1"
 					},	
 					{
@@ -268,15 +268,15 @@
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 1"
 					}]
 			},
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"20u00",
+						"Dag":"Maandag",
+						"Uren":"20,00",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -286,22 +286,22 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"18u30, 21u00",
+						"Uren":"21,00",
 						"Zalen":"Zaal 5"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 5"
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"17u45, 20u30",
+						"Uren":"17,45",
 						"Zalen":"Zaal 5"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"16u00, 19u00",
+						"Uren":"16,00",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -313,8 +313,8 @@
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"20u00",
+						"Dag":"Maandag",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -324,7 +324,7 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -334,7 +334,7 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					},	
 					{
@@ -344,7 +344,7 @@
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					}]
 			}],
@@ -353,18 +353,18 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"19",
+						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 1"
 					},
 					{
@@ -374,12 +374,12 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 1"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 20u00",
+						"Uren":" 20,00",
 						"Zalen":"Zaal 1"
 					},
 					{
@@ -391,18 +391,18 @@
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"21u00",
+						"Dag":"Maandag",
+						"Uren":"21,00",
 						"Zalen":"Zaal 8"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"18u00",
+						"Uren":"18,00",
 						"Zalen":"Zaal 8"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"15u30, 19u00",
+						"Uren":"15,30",
 						"Zalen":"Zaal 8"
 					},
 					{
@@ -412,25 +412,25 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 8"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"16u00, 20u30",
+						"Uren":"20,30",
 						"Zalen":"Zaal 8"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"18u00, 22u00",
+						"Uren":"22,00",
 						"Zalen":"Zaal 8"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"22u30",
+						"Dag":"Maandag",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -440,7 +440,7 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -450,12 +450,12 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -469,8 +469,8 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"20u00",
+						"Dag":"Maandag",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -480,12 +480,12 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"14u45",
+						"Uren":"14,45",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -495,63 +495,63 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 22u30",
+						"Uren":" 22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"14u45",
+						"Uren":"14,45",
 						"Zalen":"Zaal 2"
 					}]
 			},
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"20",
+						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"19u00",
+						"Uren":"19,00",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"14u30, 17u00",
+						"Uren":"14,30",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"19u30",
+						"Uren":"19,30",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"18u00, 20u00",
+						"Uren":"18,00",
 						"Zalen":"Zaal 2"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 15u00, 19u00",
+						"Uren":" 15,00",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"14u45, 17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 2"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"14",
+						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -561,7 +561,7 @@
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -571,12 +571,12 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"14u45, 20u00",
+						"Uren":"14,45",
 						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"14u45, 17u00",
+						"Uren":"14,45",
 						"Zalen":"Zaal 4"
 					}]
 			}],
@@ -585,8 +585,8 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"22u30",
+						"Dag":"Maandag",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -596,12 +596,12 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -611,20 +611,20 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 20u00",
+						"Uren":" 20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					}]
 			},
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"22u30",
+						"Dag":"Maandag",
+						"Uren":"22,30",
 						"Zalen":"Zaal 11"
 					},
 					{
@@ -639,35 +639,35 @@
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 11"
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 11"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 18u00, 21u00",
+						"Uren":" 18,00",
 						"Zalen":"Zaal 11"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"22u00",
+						"Uren":"22,00",
 						"Zalen":"Zaal 11"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"15",
+						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -677,7 +677,7 @@
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -687,12 +687,12 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"20",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					}]
 			}],
@@ -701,18 +701,18 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"22",
+						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -722,7 +722,7 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},	
 					{
@@ -732,25 +732,25 @@
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					}]
 			},
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"19u30",
+						"Dag":"Maandag",
+						"Uren":"19,30",
 						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"18u15",
+						"Uren":"18,15",
 						"Zalen":"Zaal 1"
 					},
 					{
@@ -765,20 +765,20 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 19u30, 22u00",
+						"Uren":"19,30",
 						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"18u00, 20u45",
+						"Uren":"20,45",
 						"Zalen":"Zaal 1"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"20u00",
+						"Dag":"Maandag",
+						"Uren":"20,00",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -788,12 +788,12 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"14u45",
+						"Uren":"14,45",
 						"Zalen":"Zaal 5"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -803,7 +803,7 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -817,18 +817,18 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"19",
+						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -838,7 +838,7 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},	
 					{
@@ -848,25 +848,25 @@
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 2"
 					}]
 			},
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"18u00",
+						"Dag":"Maandag",
+						"Uren":"18,00",
 						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"21u00",
+						"Uren":"21,00",
 						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"16u30, 19u00",
+						"Uren":"19,00",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -876,7 +876,7 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u00",
+						"Uren":"22,00",
 						"Zalen":"Zaal 4"
 					},	
 					{
@@ -886,15 +886,15 @@
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"15u30, 19u45",
+						"Uren":"15,30",
 						"Zalen":"Zaal 4"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"22u30",
+						"Dag":"Maandag",
+						"Uren":"22,30",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -904,12 +904,12 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 5"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -919,7 +919,7 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"17u00, 22u30",
+						"Uren":"17,00",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -933,8 +933,8 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"20u00",
+						"Dag":"Maandag",
+						"Uren":"20,00",
 						"Zalen":"Zaal 3"
 					},
 					{
@@ -944,12 +944,12 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 3"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 3"
 					},
 					{
@@ -959,35 +959,35 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 20u00",
+						"Uren":" 20,00",
 						"Zalen":"Zaal 3"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 3"
 					}]
 			},
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"19u30",
+						"Dag":"Maandag",
+						"Uren":"19,30",
 						"Zalen":"Zaal 7"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 7"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"19u45",
+						"Uren":"19,45",
 						"Zalen":"Zaal 7"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"20u30",
+						"Uren":"20,30",
 						"Zalen":"Zaal 7"
 					},
 					{
@@ -997,30 +997,30 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 16u00, 21u00",
+						"Uren":"21,00",
 						"Zalen":"Zaal 7"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"22u00",
+						"Uren":"22,00",
 						"Zalen":"Zaal 9"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
+						"Dag":"Maandag",
+						"Uren":"22",
 						"Zalen":""
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 5"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -1030,12 +1030,12 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 5"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"14u45",
+						"Uren":"14,45",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -1049,8 +1049,8 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"22u30",
+						"Dag":"Maandag",
+						"Uren":"22,30",
 						"Zalen":"Zaal 3"
 					},
 					{
@@ -1060,7 +1060,7 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 3"
 					},
 					{
@@ -1070,12 +1070,12 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 3"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 22u30",
+						"Uren":" 22,30",
 						"Zalen":"Zaal 3"
 					},
 					{
@@ -1087,23 +1087,23 @@
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
+						"Dag":"Maandag",
+						"Uren":"16",
 						"Zalen":""
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"18u00",
+						"Uren":"18,00",
 						"Zalen":"Zaal 10"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"14u30, 20u",
+						"Uren":"14,30",
 						"Zalen":"Zaal 10"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"22u15",
+						"Uren":"22,15",
 						"Zalen":"Zaal 10"
 					},
 					{
@@ -1113,30 +1113,30 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 18u00, 21u00",
+						"Uren":" 18,00, 21,00",
 						"Zalen":"Zaal 10"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"16u45, 21u00",
+						"Uren":"16,45",
 						"Zalen":"Zaal 10"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
+						"Dag":"Maandag",
+						"Uren":"20",
 						"Zalen":""
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 5"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -1146,12 +1146,12 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 5"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"17u00, 20u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -1165,18 +1165,18 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
+						"Dag":"Maandag",
+						"Uren":"22",
 						"Zalen":""
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 3"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"22u00",
+						"Uren":"22,00",
 						"Zalen":"Zaal 3"
 					},
 					{
@@ -1186,7 +1186,7 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 3"
 					},	
 					{
@@ -1203,23 +1203,23 @@
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"21u00",
+						"Dag":"Maandag",
+						"Uren":"21,00",
 						"Zalen":"Zaal 3"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"18u00",
+						"Uren":"18,00",
 						"Zalen":"Zaal 3"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"17u00, 22u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 3"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 3"
 					},
 					{
@@ -1234,15 +1234,15 @@
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"15u00, 18u00",
+						"Uren":"15,00",
 						"Zalen":"Zaal 3"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"20u00",
+						"Dag":"Maandag",
+						"Uren":"20,00",
 						"Zalen":"Zaal 1"
 					},
 					{
@@ -1252,12 +1252,12 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 1"
 					},
 					{
@@ -1267,12 +1267,12 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 1"
 					}]
 					
@@ -1282,13 +1282,13 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
+						"Dag":"Maandag",
+						"Uren":"21",
 						"Zalen":""
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 3"
 					},
 					{
@@ -1298,7 +1298,7 @@
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 3"
 					},
 					{
@@ -1308,20 +1308,20 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 3"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"14u00, 22u30",
+						"Uren":"14,00",
 						"Zalen":"Zaal 3"
 					}]
 			},
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"20u00",
+						"Dag":"Maandag",
+						"Uren":"20,00",
 						"Zalen":"Zaal 12"
 					},
 					{
@@ -1331,12 +1331,12 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"18u00",
+						"Uren":"18,00",
 						"Zalen":"Zaal 12"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"18u00",
+						"Uren":"18,00",
 						"Zalen":"Zaal 12"
 					},
 					{
@@ -1346,20 +1346,20 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 16u30, 20u00",
+						"Uren":" 16,30",
 						"Zalen":"Zaal 12"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"22u00",
+						"Uren":"22,00",
 						"Zalen":"Zaal 12"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"22u30",
+						"Dag":"Maandag",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -1369,7 +1369,7 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -1379,17 +1379,17 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 22u30",
+						"Uren":" 22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					}]
 			}],
@@ -1398,8 +1398,8 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"20u00",
+						"Dag":"Maandag",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -1409,7 +1409,7 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -1419,7 +1419,7 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					},	
 					{
@@ -1429,30 +1429,30 @@
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					}]
 			},
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"20u30",
+						"Dag":"Maandag",
+						"Uren":"20,30",
 						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"18u00",
+						"Uren":"18,00",
 						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"22u00",
+						"Uren":"22,00",
 						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"19u00",
+						"Uren":"19,00",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -1462,7 +1462,7 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"15u00 19u00",
+						"Uren":"19,00",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -1474,18 +1474,18 @@
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"21",
+						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 1"
 					},
 					{
@@ -1495,7 +1495,7 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 1"
 					},	
 					{
@@ -1505,7 +1505,7 @@
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 1"
 					}]
 			}],
@@ -1514,8 +1514,8 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"22u30",
+						"Dag":"Maandag",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -1525,7 +1525,7 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -1535,12 +1535,12 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -1552,13 +1552,13 @@
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"19u00",
+						"Dag":"Maandag",
+						"Uren":"19,00",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"22u00",
+						"Uren":"22,00",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -1568,7 +1568,7 @@
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"22u00",
+						"Uren":"22,00",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -1578,30 +1578,30 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"22u00",
+						"Uren":"22,00",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"20u30",
+						"Uren":"20,30",
 						"Zalen":"Zaal 2"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"21",
+						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 1"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 1"
 					},
 					{
@@ -1611,12 +1611,12 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 1"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 20u00",
+						"Uren":" 20,00",
 						"Zalen":"Zaal 1"
 					},
 					{
@@ -1630,13 +1630,13 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"21",
+						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -1646,7 +1646,7 @@
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -1656,25 +1656,25 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"14u45, 20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"14u45, 17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 4"
 					}]
 			},
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"21",
+						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"18u00",
+						"Uren":"18,00",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -1684,7 +1684,7 @@
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"17u00, 20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -1699,15 +1699,15 @@
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"14u30",
+						"Uren":"14,30",
 						"Zalen":"Zaal 2"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"20u00",
+						"Dag":"Maandag",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -1717,12 +1717,12 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"14u45",
+						"Uren":"14,45",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -1732,12 +1732,12 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"14u45",
+						"Uren":"14,45",
 						"Zalen":"Zaal 2"
 					}]
 			}],
@@ -1746,13 +1746,13 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"21",
+						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -1762,7 +1762,7 @@
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 4"
 					},
 					{
@@ -1772,30 +1772,30 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 4"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"20",
+						"Uren":"20,00",
 						"Zalen":"Zaal 4"
 					}]
 			},
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"21",
+						"Zalen":"Zaal 9"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 9"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"18u00, 21u00",
+						"Uren":"21,00",
 						"Zalen":"Zaal 9"
 					},
 					{
@@ -1805,25 +1805,25 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u00",
+						"Uren":"22,00",
 						"Zalen":"Zaal 9"
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 16u00",
+						"Uren":" 16,00",
 						"Zalen":"Zaal 9"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"18u30",
+						"Uren":"18,30",
 						"Zalen":"Zaal 9"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"22u30",
+						"Dag":"Maandag",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -1833,12 +1833,12 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -1848,12 +1848,12 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					}]
 			}],
@@ -1862,8 +1862,8 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"20u00",
+						"Dag":"Maandag",
+						"Uren":"20,00",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -1873,12 +1873,12 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"14u45",
+						"Uren":"14,45",
 						"Zalen":"Zaal 5"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -1888,7 +1888,7 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -1900,18 +1900,18 @@
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"19u00",
+						"Dag":"Maandag",
+						"Uren":"19,00",
 						"Zalen":"Zaal 11"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 11"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"20u30",
+						"Uren":"20,30",
 						"Zalen":"Zaal 11"
 					},
 					{
@@ -1921,7 +1921,7 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"19u30",
+						"Uren":"19,30",
 						"Zalen":"Zaal 11"
 					},	
 					{
@@ -1931,25 +1931,25 @@
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"16u45",
+						"Uren":"16,45",
 						"Zalen":"Zaal 11"
 					}]
 			},
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"21",
+						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -1959,7 +1959,7 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},	
 					{
@@ -1969,7 +1969,7 @@
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					}]
 			}],
@@ -1978,8 +1978,8 @@
 			[{	
 			"Cinema":"Studio Skoop",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"22u30",
+						"Dag":"Maandag",
+						"Uren":"22,30",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -1989,12 +1989,12 @@
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 5"
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -2004,7 +2004,7 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":"17u00, 22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -2016,13 +2016,13 @@
 			{	
 			"Cinema":"Kinepolis Gent",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"17u30",
+						"Dag":"Maandag",
+						"Uren":"17,30",
 						"Zalen":"Zaal 5"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 5"
 					},
 					{
@@ -2032,12 +2032,12 @@
 					},
 					{
 						"Dag": "Donderdag",
-						"Uren":"18u00, 21u00",
+						"Uren":"21,00",
 						"Zalen":"Zaal 5"
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 5"
 					},	
 					{
@@ -2054,18 +2054,18 @@
 			{	
 			"Cinema":"Sphinx",
 			"Dagen":[{
-						"Dag": "Maandag",
-						"Uren":"",
-						"Zalen":""
+						"Dag":"Maandag",
+						"Uren":"21",
+						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Dinsdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
 						"Dag": "Woensdag",
-						"Uren":"22u30",
+						"Uren":"22,30",
 						"Zalen":"Zaal 2"
 					},
 					{
@@ -2075,7 +2075,7 @@
 					},
 					{
 						"Dag": "Vrijdag",
-						"Uren":"20u00",
+						"Uren":"20,00",
 						"Zalen":"Zaal 2"
 					},	
 					{
@@ -2085,7 +2085,7 @@
 					},
 					{
 						"Dag": "Zondag",
-						"Uren":"17u00",
+						"Uren":"17,00",
 						"Zalen":"Zaal 2"
 					}]
 			}]

@@ -1089,7 +1089,7 @@
 			"Dagen":[{
 						"Dag":"Maandag",
 						"Uren":"16",
-						"Zalen":""
+						"Zalen":"Zaal 10"
 					},
 					{
 						"Dag": "Dinsdag",
@@ -1113,7 +1113,7 @@
 					},	
 					{
 						"Dag": "Zaterdag",
-						"Uren":" 18,00, 21,00",
+						"Uren":" 18,00",
 						"Zalen":"Zaal 10"
 					},
 					{
@@ -1127,7 +1127,7 @@
 			"Dagen":[{
 						"Dag":"Maandag",
 						"Uren":"20",
-						"Zalen":""
+						"Zalen":"Zaal 5"
 					},
 					{
 						"Dag": "Dinsdag",
@@ -1284,7 +1284,7 @@
 			"Dagen":[{
 						"Dag":"Maandag",
 						"Uren":"21",
-						"Zalen":""
+						"Zalen":"Zaal 3"
 					},
 					{
 						"Dag": "Dinsdag",

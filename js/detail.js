@@ -25,54 +25,6 @@ $(document).ready(function() {
 		}
 		
 		
-		function basic(){
-			document.getElementById("gegevens").innerHTML ="";
-			$("#test0").addClass("active");
-			$("#test1").removeClass("active");
-			$("#test2").removeClass("active");
-		
-			for (i = 0; i < data[movieId][0].Dagen.length; i++){
-				document.getElementById("gegevens").innerHTML += "<tr><td><h5 class='white'>"+data[movieId][0].Dagen[i].Dag+"</h5></td><td><h5 class='white'>"+data[movieId][0].Dagen[i].Uren+"</h5></td><td><h5 class='white'>"+data[movieId][0].Dagen[i].Zalen+"</h5></td></tr>";
-				}
-			}
-		
-			
-			
-		$("#test0").on("click", function(){
-			document.getElementById("gegevens").innerHTML ="";
-			$("#test0").addClass("active");
-			$("#test1").removeClass("active");
-			$("#test2").removeClass("active");
-			
-			for (i = 0; i < data[movieId][0].Dagen.length; i++){
-				document.getElementById("gegevens").innerHTML += "<tr><td><h5 class='white'>"+data[movieId][0].Dagen[i].Dag+"</h5></td><td><h5 class='white'>"+data[movieId][0].Dagen[i].Uren+"</h5></td><td><h5 class='white'>"+data[movieId][0].Dagen[i].Zalen+"</h5></td></tr>";
-				}
-			});
-			
-		$("#test1").on("click", function(){
-			document.getElementById("gegevens").innerHTML ="";
-			$("#test0").removeClass("active");
-			$("#test1").addClass("active");
-			$("#test2").removeClass("active");
-			
-			for (i = 0; i < data[movieId][1].Dagen.length; i++){
-				document.getElementById("gegevens").innerHTML += "<tr><td><h5 class='white'>"+data[movieId][1].Dagen[i].Dag+"</h5></td><td><h5 class='white'>"+data[movieId][1].Dagen[i].Uren+"</h5></td><td><h5 class='white'>"+data[movieId][1].Dagen[i].Zalen+"</h5></td></tr>";
-				}
-			
-			});
-			
-		$("#test2").on("click", function(){
-			document.getElementById("gegevens").innerHTML ="";
-			$("#test0").removeClass("active");
-			$("#test1").removeClass("active");
-			$("#test2").addClass("active");
-			
-			for (i = 0; i < data[movieId][2].Dagen.length; i++){
-				document.getElementById("gegevens").innerHTML += "<tr><td><h5 class='white'>"+data[movieId][2].Dagen[i].Dag+"</h5></td><td><h5 class='white'>"+data[movieId][2].Dagen[i].Uren+"</h5></td><td><h5 class='white'>"+data[movieId][2].Dagen[i].Zalen+"</h5></td></tr>";
-				}
-			
-			});
-		
 		
 		});
 		

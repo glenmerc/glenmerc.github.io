@@ -60,6 +60,6 @@ $( document ).ready(function() {
 	});
 	
 	$("#btnLogout").on("click", function(){
-		window.location.href = "index";
+		window.location.href = "result";
 		});
 });

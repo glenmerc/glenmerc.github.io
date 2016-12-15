@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 	var maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag, zaalma, zaaldi, zaalwo, zaaldo, zaalvr, zaalza, zaalzo, uurbeginma, uurbegindi, uurbeginwo, uurbegindo, uurbeginvr, uurbeginza, uurbeginza, uurbeginzo, uureindma, uureinddi, uureindwo, uureinddo, uureindvr, uureindza, uureindzo, plaats, movieId;
 	//open de data API voor het weergeven van films op movieId
-	$.getJSON("https://api.myjson.com/bins/74zrx", function(data){
+	$.getJSON("../js/uurregeling.json", function(data){
 		
 		//session store ophalen uit vorige js
 		movieId = sessionStorage.getItem("movieId");

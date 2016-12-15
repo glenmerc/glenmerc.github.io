@@ -1,0 +1,54 @@
+{
+  "users" : {
+    "183KUrENoCY3b5EE8gpAMUg2bfH3" : {
+      "email" : "sjasie007@gmail.com",
+      "movies" : {
+        "seen" : {
+          "346672" : {
+            "moviename" : "Underworld: Blood Wars"
+          }
+        },
+        "wishlist" : "moviename"
+      }
+    },
+    "BZbVN5RdTdReSNYWzCoF6zLTkBt1" : {
+      "email" : "glenn.merckx@student.arteveldehs.be",
+      "movies" : {
+        "seen" : "moviename",
+        "wishlist" : "moviename"
+      }
+    },
+    "FwYbzhckI0eBP3iXEMmSep6VTff1" : {
+      "email" : "sjasie96@gmail.com",
+      "movies" : {
+        "seen" : {
+          "223702" : {
+            "moviename" : "Sausage Party",
+            "poster" : "/jDeDRLEa8JqB3xmKVy6q3bkmDt6.jpg"
+          },
+          "346672" : {
+            "moviename" : "Underworld: Blood Wars",
+            "poster" : "/nHXiMnWUAUba2LZ0dFkNDVdvJ1o.jpg"
+          },
+          "movie" : {
+            "moviename" : "Arrival",
+            "poster" : "/xGgg2UI20qtEh7mura3RRwP8d3I.jpg"
+          }
+        },
+        "wishlist" : "moviename"
+      },
+      "name" : "Glenn “sjasie” Merckx"
+    },
+    "dQnH0ZZuxOgDL7GyBtqR4zJNEBR2" : {
+      "email" : "test@test.be",
+      "movies" : {
+        "seen" : {
+          "283366" : {
+            "moviename" : "Miss Peregrine's Home for Peculiar Children"
+          }
+        },
+        "wishlist" : "moviename"
+      }
+    }
+  }
+}

@@ -4,8 +4,6 @@ title   : "New Media Design & Development I"
 ---
 
 <div class="push">
-
-	
 	<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 margin"> 
 		<h1 class="typing lightBlue"></h1>
 	</div>

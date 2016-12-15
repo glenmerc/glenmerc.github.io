@@ -8,7 +8,7 @@ $(document).ready(function() {
 	console.log(movieId);
 	
 	//open de data API voor het weergeven van films op movieId
-	$.getJSON("https://api.myjson.com/bins/jzoc1", function(data){
+	$.getJSON("../js/uurregeling.json", function(data){
 		
 		//session store ophalen uit vorige js
 		movieId = sessionStorage.getItem("movieId");
@@ -33,8 +33,10 @@ $(document).ready(function() {
 	//open de data API voor het weergeven van films op movieId
 	$.getJSON("https://api.themoviedb.org/3/movie/"+ movieId +"?api_key=f32e0e7660d450db58d253702535beb2&language=en-US", function(data){
 		title = data.original_title;
+		sessionStorage.setItem("title",title);
 		info = data.overview;
 		poster = data.poster_path;
+		sessionStorage.setItem("poster",poster);
 		homepage = data.homepage;
 		imdbId = data.imdb_id;	
 	

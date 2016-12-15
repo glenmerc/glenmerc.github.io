@@ -6,7 +6,11 @@ title   : "New Media Design & Development I"
 <div class="">
 	<div class="col-md-12 well">
 		<div class="col-md-12" id="title">	</div>
-		<div class="col-md-4" id="poster">	</div>
+		<div class="col-md-4">	
+			<div class="col-md-12" id="poster"></div>
+			<div class="col-md-6" id="seen"><a class="white">add to seen-list <span class="glyphicon glyphicon-eye-open"></span></a></div>
+			<div class="col-md-6" id="wish"><a class="white">add to wishlist <span class="glyphicon glyphicon-plus"></span></a></div>
+		</div>	
 		<div class="col-md-8" id="info"><h3 class="white">Info</h3>	</div>
 		<div class="col-md-8" id=""><p class='white' id='genre'>Genre: </p>	</div>
 		<div class="col-md-8" id="year">	</div>

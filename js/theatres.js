@@ -18,7 +18,7 @@ $( document ).ready(function() {
 	
 		
 	//open local json file voor info van bioscopen
-	$.getJSON("https://api.myjson.com/bins/3i9zj", function(data){
+	$.getJSON("../js/Bioscopen.json", function(data){
 		naam = data.Bioscopen[theatreValue].Naam;
 		map = data.Bioscopen[theatreValue].Map;
 		telefoon = data.Bioscopen[theatreValue].Telefoon;

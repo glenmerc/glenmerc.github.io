@@ -38,7 +38,7 @@ $( document ).ready(function() {
 	});
 	
 	$("#seen").on("click", function(){
-		$(this).html("<p>added to seenlist<span class='glyphicon glyphicon-eye-open'></span></p>");
+		$(this).html("<p class='white'>added to seenlist <span class='glyphicon glyphicon-eye-open'></span></p>");
 		});
 	
 });

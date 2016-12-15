@@ -41,6 +41,7 @@ $( document ).ready(function() {
 		if (firebaseUser){
 			console.log(firebaseUser);
 			$("#btnLogout").removeClass("hide");
+			$("#btnSeen").removeClass("hide");
 			$("#btnLogin").addClass("hide");
 			$("#btnSignUp").addClass("hide");
 			$("#btnFacebook").addClass("hide");
@@ -57,6 +58,7 @@ $( document ).ready(function() {
 		}else{
 			console.log("not logged in");
 			$("#btnLogout").addClass("hide");
+			$("#btnSeen").addClass("hide");
 			$("#btnLogin").removeClass("hide");
 			$("#btnSignUp").removeClass("hide");
 			$("#btnFacebook").removeClass("hide");
@@ -146,8 +148,9 @@ $( document ).ready(function() {
 	
 	});
 	
-	
-	
+	$("#btnSeen").on("click", function(){
+		window.location.href = "seen";
+		});
 	
 	
 	

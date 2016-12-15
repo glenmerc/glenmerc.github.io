@@ -58,4 +58,8 @@ $( document ).ready(function() {
 			window.location.href = "result";
 			});	
 	});
+	
+	$("#btnLogout").on("click", function(){
+		window.location.href = "index";
+		});
 });

@@ -89,6 +89,23 @@ $( document ).ready(function() {
 		});
 	}
 	
+	//open de data API voor aanmaak van genre Buttons op index
+	$.getJSON("https://api.themoviedb.org/3/genre/movie/list?api_key=f32e0e7660d450db58d253702535beb2&language=en-us", function(data){
+		
+		//aanmaak van alle genre buttons op index
+		for (i = 0; i < data.genres.length; i++) {
+		document.getElementById("genreDropdown").innerHTML += "<li class='genreList' value='"+ data.genres[i].id +"'><a>"+ data.genres[i].name+"</a></li>";
+		}	
+		
+		//weergeven van de genreId
+		$(".genreList").on("click", function(){
+			genreId = this.value;
+			
+			//sessionstore om value later te gebruiken
+			sessionStorage.setItem("genreId",genreId);
+			window.location.href = "result";
+			});	
+	});
 
 	
 });

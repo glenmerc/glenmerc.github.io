@@ -1,5 +1,5 @@
 ---
-layout  : result
+layout  : detail
 title   : "New Media Design & Development I"
 ---
 

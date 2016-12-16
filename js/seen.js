@@ -27,9 +27,9 @@ $( document ).ready(function() {
 		firebase.auth().onAuthStateChanged(firebaseUser =>{
 		if (firebaseUser){
 			firebase.database().ref().child("users").child(firebaseUser.uid).child("movies").child("seen").child("counter").set(counter);
-			firebase.database().ref().child("users").child(firebaseUser.uid).child("movies").child("seen").child("movie"+counter).child("moviename").set(movieName);
-			firebase.database().ref().child("users").child(firebaseUser.uid).child("movies").child("seen").child("movie"+counter).child("poster").set(poster);
-			firebase.database().ref().child("users").child(firebaseUser.uid).child("movies").child("seen").child("movie"+counter).child("movieId").set(movieId);
+			firebase.database().ref().child("users").child(firebaseUser.uid).child("movies").child("seen").child(movieId).child("moviename").set(movieName);
+			firebase.database().ref().child("users").child(firebaseUser.uid).child("movies").child("seen").child(movieId).child("poster").set(poster);
+			firebase.database().ref().child("users").child(firebaseUser.uid).child("movies").child("seen").child(movieId).child("movieId").set(movieId);
 		}else{
 		console.log("error")	;
 		}

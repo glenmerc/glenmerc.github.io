@@ -27,17 +27,4 @@ title   : "New Media Design & Development I"
 		</div>
 	</div>
 </div>
-			<!--<div class="table-responsive">
-			<table class="col-md-12 margin table-hover table">
-				<thead>
-					<tr>
-						<th class="white"><h3>Dag</h3></th>
-						<th class="white"><h3>Uren</h3></th>
-						<th class="white"><h3>Zaal</h3></th>
-					</tr>
-				</thead>
-				<tbody id="gegevens">
-				</tbody>
-			</table>
-		</div>
-		<div class="col-md-12" id="plaats">	</div>-->
+			

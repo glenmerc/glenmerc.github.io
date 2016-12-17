@@ -1,11 +1,11 @@
 $(document).ready(function() {
 	
 	"use strict";
-	var movieId, title, info, poster, i, homepage, imdbId, imdbRating, jaar, release, director, key, a, genreId;
+	var movieId, title, info, poster, posterId, posterPre, i, homepage, imdbId, imdbRating, jaar, release, director, key, genreId;
 	
 	//session store ophalen uit vorige js
 	movieId = sessionStorage.getItem("movieId");
-	console.log(movieId);
+	
 	
 	//open de data API voor het weergeven van films op movieId
 	$.getJSON("../js/uurregeling.json", function(data){
@@ -35,10 +35,17 @@ $(document).ready(function() {
 		title = data.original_title;
 		sessionStorage.setItem("title",title);
 		info = data.overview;
-		poster = data.poster_path;
+		posterId = data.poster_path;
+		posterPre = "https://image.tmdb.org/t/p/w500";
+		poster = posterPre+posterId;
 		sessionStorage.setItem("poster",poster);
 		homepage = data.homepage;
 		imdbId = data.imdb_id;	
+		
+		// if geen posterId dan laden we een placeholder in
+				if (posterId === null){
+					poster = "../img/noImage.jpg";
+					}
 	
 		//wegschrijven van data in html detail.md
 		
@@ -46,7 +53,7 @@ $(document).ready(function() {
 		
 		document.getElementById("info").innerHTML += "<p class='white'>"+info+"</p><hr>";
 		
-		document.getElementById("poster").innerHTML += "<img src='https://image.tmdb.org/t/p/w500"+poster+"' class='posterSize'/>";
+		document.getElementById("poster").innerHTML += "<img src='"+poster+"' class='posterSize'/>";
 		
 		document.getElementById("site").innerHTML += "<p class='white' id='site'>Official Website: <a class='link' target=_blank href='"+ data.homepage +"'>"+data.homepage+"</a></p>";
 		
@@ -74,7 +81,7 @@ $(document).ready(function() {
 		//open de data API voor het weergeven van trailer
 		$.getJSON("https://api.themoviedb.org/3/movie/"+movieId+"/videos?api_key=f32e0e7660d450db58d253702535beb2&language=en-US", function(data3){
 			key = data3.results[0].key;
-			console.log(key);
+			
 			
 			document.getElementById("video").innerHTML += "<div class='margin embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='//www.youtube.com/embed/"+key+"'></iframe></div>";
 			

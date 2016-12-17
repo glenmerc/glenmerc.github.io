@@ -6,8 +6,7 @@ $( document ).ready(function() {
 	
 	
 	genreId = sessionStorage.getItem("genreId");
-	console.log(genreId);
-	
+
 	
 	//if, de nowplaying is geen genre en heeft dus een andere behandeling nodig
 	if (genreId === "0"){	
@@ -16,6 +15,11 @@ $( document ).ready(function() {
 		url = "https://api.themoviedb.org/3/movie/now_playing?api_key=f32e0e7660d450db58d253702535beb2&language=en-US";
 		//open de data API voor het weergeven van "now playing"
 		$.getJSON(url, function(data){
+			
+			//leegmaken van #movies
+			$("#movies").html("");
+			
+			
 			//aanmaak van elke film
 			for (i = 0; i < 18; i++) {
 				movie = data.results[i].original_title;
@@ -63,6 +67,10 @@ $( document ).ready(function() {
 		
 		//open de data API voor het weergeven van films op genre
 		$.getJSON("https://api.themoviedb.org/3/genre/"+ genreId +"/movies?api_key=f32e0e7660d450db58d253702535beb2&language=en-US&include_adult=false&sort_by=created_at.asc&page="+page+"", function(data){
+			
+			//leegmaken van #movies
+			$("#movies").html("");
+			
 			//aanmaak van elke film
 			console.log(page);
 			for (i = 0; i < 18; i++) {
@@ -71,6 +79,7 @@ $( document ).ready(function() {
 			posterPre = "https://image.tmdb.org/t/p/w500";
 			poster = posterPre + posterId;
 			
+				// if geen posterId dan laden we een placeholder in
 				if (posterId === null){
 					poster = "../img/noImage.jpg";
 					}
@@ -89,7 +98,7 @@ $( document ).ready(function() {
 		});
 	}
 	
-	//open de data API voor aanmaak van genre Buttons op index
+	//open de data API voor aanmaak van genre Buttons op result
 	$.getJSON("https://api.themoviedb.org/3/genre/movie/list?api_key=f32e0e7660d450db58d253702535beb2&language=en-us", function(data){
 		
 		//aanmaak van alle genre buttons op index

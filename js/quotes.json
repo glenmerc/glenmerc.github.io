@@ -198,7 +198,7 @@
 			"Quote": "Elementary, my dear Watson.",
 			"Film": "The Adventures of Sherlock Holmes",
 			"Jaar": "1939",
-			"Img": "theadventuresofsherlockholmes.jpg"
+			"Img": "theadventureofsherlockholmes.jpg"
 		},
          {
 			"Quote": "That'll do, pig. That'll do.",
@@ -223,7 +223,7 @@
 			"Quote": "My precious.",
 			"Film": "The Lord of the Rings: The Two Towers",
 			"Jaar": "2002",
-			"Img": "thelordoftherings.jpg"
+			"Img": "thelordoftheringsGollum.jpg"
 		},
 
          {
@@ -688,6 +688,13 @@
 		},
 
         {
+			"Quote": "Frankly, my dear, I don't give a damn.",
+			"Film": "Gone With the Wind",
+			"Jaar": "1939",
+			"Img": "gonewiththewind.jpg"
+		},
+		
+		{
 			"Quote": "Frankly, my dear, I don't give a damn.",
 			"Film": "Gone With the Wind",
 			"Jaar": "1939",

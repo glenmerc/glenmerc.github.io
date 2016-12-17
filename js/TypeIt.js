@@ -6,7 +6,7 @@ $( document ).ready(function() {
 	$.getJSON("/js/quotes.json", function(data){
 		
 		//randomgenner
-		i = Math.floor((Math.random() * 99) + 1);
+		i = Math.floor((Math.random() * 100) + 1);
 	
 	//weergeven van random afbeeldingen op de index
 	$(".background").css({"background-image": "url(../../img/index/"+data.Quotes[i].Img+")"}).ready(function() {

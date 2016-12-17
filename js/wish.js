@@ -21,7 +21,7 @@ $( document ).ready(function() {
 	});
 	
 	$("#wish").on("click", function(){
-		$(this).html("<p class='white'>added to wishlist <span class='glyphicon glyphicon-eye-open'></span></p>");
+		$(this).html("<p class='white'>added to wishlist <span class='glyphicon glyphicon-plus'></span></p>");
 		});
 	
 });

@@ -14,7 +14,7 @@ $( document ).ready(function() {
 				var poster = snap.child("poster").val();
 				var posterPre = "https://image.tmdb.org/t/p/w500";
 				
-				$("#wishList").append("<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail'><img class='posterSize movieId' alt='"+movieId+"' src='"+posterPre+poster + "'/><p class='textVast'>"+ moviename +"</p></a></div></div>");
+				$("#wishList").append("<div class='col-md-2 col-xs-6'><div class='movieVast'><a href='detail'><img class='posterSize movieId' alt='"+movieId+"' src='"+poster + "'/><p class='textVast'>"+ moviename +"</p></a></div></div>");
 				$(".col-md-2:has(img[alt=null])").remove();
 				
 				

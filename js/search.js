@@ -12,6 +12,16 @@ $(document).ready(function() {
 		window.location.href = "search";
 		});
 	
+	$( "#search" ).keypress(function( e ) {
+  		if (e.which == 13 ) {
+		query = document.getElementById("search").value;
+		genreId = this.value;
+		sessionStorage.setItem("genreId", genreId);
+		sessionStorage.setItem("query", query);
+		window.location.href = "search";
+		}
+  		
+		});
 	
 	
 	genreId = sessionStorage.getItem("genreId");

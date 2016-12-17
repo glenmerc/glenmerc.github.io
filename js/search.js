@@ -15,13 +15,15 @@ $(document).ready(function() {
 	$( "#search" ).keypress(function( e ) {
   		if (e.which == 13 ) {
 		query = document.getElementById("search").value;
-		genreId = this.value;
+		genreId = 100;
 		sessionStorage.setItem("genreId", genreId);
 		sessionStorage.setItem("query", query);
 		window.location.href = "search";
 		}
   		
 		});
+		
+		
 	
 	
 	genreId = sessionStorage.getItem("genreId");

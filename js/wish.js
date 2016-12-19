@@ -21,9 +21,6 @@ $( document ).ready(function() {
 		});
 	});
 	
-	$("#wish").on("click", function(){
-		$(this).html("<p class='white'>added to wishlist <span class='glyphicon glyphicon-plus'></span></p>");
-		});
 	
 	firebase.auth().onAuthStateChanged(firebaseUser =>{
 		if (firebaseUser){	
@@ -31,13 +28,15 @@ $( document ).ready(function() {
 			var rootRef = firebase.database().ref().child("users").child(firebaseUser.uid).child("movies").child("wish").child(movieId);
 			rootRef.on("value", snap =>{
 				
-				
 				var wish = snap.child("wish").val();
 				if (wish === "true"){
-					$("#wish").html("");
-					$("#removeWish").removeClass("hide");
-					}
-		});
+					$("#wish").hide();
+					$("#removeWish").show();
+				}else{
+					$("#wish").show();
+					$("#removeWish").hide();
+				}
+			});
 		}
 	});
 	

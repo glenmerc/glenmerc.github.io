@@ -8,10 +8,12 @@ title   : "New Media Design & Development I"
 		<div class="col-md-12" id="title">	</div>
 		<div class="col-md-4">	
 			<div class="col-md-12" id="poster"></div>
-			<div class="col-md-6 col-xs-6" id="seen"><a class="white" style="font-size:10px">add to seen-list <span class="glyphicon glyphicon-eye-open"></span></a></div>
-			<div class="col-md-6 col-xs-6" id="wish"><a class="white" style="font-size:10px;float:right">add to wishlist <span class="glyphicon glyphicon-plus"></span></a></div>
-			<div class="col-md-6 col-xs-6 hide" id="removeSeen"><a class='white' style="font-size:10px">Delete from seenlist <span class='glyphicon glyphicon-remove'></span></a></div>
-			<div class="col-md-6 col-xs-6 hide" id="removeWish"><a class='white' style="font-size:10px;float:right">Delete from wishlist <span class='glyphicon glyphicon-remove'></span></a></div>
+			<div id="state">
+				<div class="col-md-12 col-xs-12" id="seen"><a class="white">add to seenlist <span class="glyphicon glyphicon-eye-open"></span></a></div>
+				<div class="col-md-12 col-xs-12" id="wish"><a class="white">add to wishlist <span class="glyphicon glyphicon-plus"></span></a></div>
+				<div class="col-md-12 col-xs-12" id="removeSeen"><a class="white">remove from seenlist <span class="glyphicon glyphicon-remove"></span></a></div>
+				<div class="col-md-12 col-xs-12" id="removeWish"><a class="white">remove from wishlist <span class="glyphicon glyphicon-remove"></span></a></div>
+			</div>
 		</div>	
 		<div class="col-md-8" id="info"><h3 class="white">Info</h3>	</div>
 		<div class="col-md-8" id=""><p class='white' id='genre'>Genre: </p>	</div>

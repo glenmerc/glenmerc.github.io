@@ -23,12 +23,6 @@ $( document ).ready(function() {
 	
 	
 	
-	
-	
-	$("#seen").on("click", function(){
-		$(this).html("<p class='white'>Added to seenlist <span class='glyphicon glyphicon-eye-open'></span></p>");
-		});
-		
 		
 		
 		
@@ -40,9 +34,12 @@ $( document ).ready(function() {
 				
 				var seen = snap.child("seen").val();
 				if (seen === "true"){
-					$("#seen").html("");	
-					$("#removeSeen").removeClass("hide");
-					}
+					$("#seen").hide();
+					$("#removeSeen").show();
+				}else{
+					$("#seen").show();
+					$("#removeSeen").hide();
+				}
 			});
 		}
 	});

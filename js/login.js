@@ -57,6 +57,8 @@ $( document ).ready(function() {
 			$("#txtEmail").addClass("hide");
 			$("#txtPassword").addClass("hide");
 			$("#loginHeader").html("Welcome <br>to<br> Morelikeit");
+			$("#removeSeen").removeClass("hide");
+			$("#removeWish").removeClass("hide");
 			if (firebaseUser.displayName){
 				$("#logged-in").html("Logged in as "+firebaseUser.displayName+" <span class='caret'></span>");
 			}else{
@@ -81,6 +83,8 @@ $( document ).ready(function() {
 			$("#loginHeader").removeClass("hide");
 			$("#loginHeader").html("Login");
 			$("#logged-in").html("LOGIN <span class='caret'></span>");
+			$("#removeSeen").addClass("hide");
+			$("#removeWish").addClass("hide");
 		}
 	});
 	

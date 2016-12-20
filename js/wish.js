@@ -3,11 +3,16 @@ $( document ).ready(function() {
 	"use strict";
 	
 	var movieId, movieName, poster;
-	 
+	
+	//bij een klik op de tag met id wish stored hij alles naar de databes 
 	$("#wish").on("click", function(){
+		
+		//haal benodigdheden uit de sessiontorage
 		movieId = sessionStorage.getItem("movieId");
 		movieName= sessionStorage.getItem("title");
 		poster = sessionStorage.getItem("poster");
+		
+		//open de database en schrijf data weg
 		firebase.auth().onAuthStateChanged(firebaseUser =>{
 		if (firebaseUser){
 			firebase.database().ref().child("users").child(firebaseUser.uid).child("movies").child("wish").child(movieId).child("moviename").set(movieName);
@@ -18,8 +23,8 @@ $( document ).ready(function() {
 		console.log("error")	;
 		}
 	
-		});
-	});
+		});//sluit if
+	});//sluit de connectie met de database
 	
 	
 	firebase.auth().onAuthStateChanged(firebaseUser =>{

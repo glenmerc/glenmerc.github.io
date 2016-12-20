@@ -37,23 +37,6 @@ $( document ).ready(function() {
 		document.getElementById("info").innerHTML += ""+info+"";
 		document.getElementById("img").innerHTML += "<img class='cinemaPhoto' src='/img/"+img+"'/>";
 		
-		/*geeft de coordinaten van de gebruiker terug en stored deze in vars
-		navigator.geolocation.getCurrentPosition(succes,failure,{timeout:10000});
-	
-	//slaat de coordinaten op bij succes van retrieve
-	function succes(position){
-		myLat = position.coords.latitude;
-	    myLon = position.coords.longitude;
-	
-	//wegschrijven van data naar de html
-		document.getElementById("mapper").innerHTML += '<div id="map"></div>';
-	
-	}
-	//geeft foutcode wanneer coordinaten niet konden worden gevonden	
-	function failure(){
-		$("#mapper").html("<p>failed to get your location</p>");
-		}*/
-		
 		var mapOptions = {
     		center: new google.maps.LatLng(lat, lng),
     		zoom: 15,

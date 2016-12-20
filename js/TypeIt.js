@@ -8,27 +8,20 @@ $( document ).ready(function() {
 		//randomgenner
 		i = Math.floor((Math.random() * 100) + 1);
 	
-	//weergeven van random afbeeldingen op de index
-	$(".background").css({"background-image": "url(../../img/index/"+data.Quotes[i].Img+")"}).ready(function() {
+		//weergeven van random afbeeldingen op de index
+		$(".background").css({"background-image": "url(../../img/index/"+data.Quotes[i].Img+")"}).ready(function() {
         
-		//typing.js voor random quotes met typewriter effect weer te geven
-		$(".typing").typeIt({
-     strings: ['“'+ data.Quotes[i].Quote +'” <p class="ptit">'+ data.Quotes[i].Film +', '+ data.Quotes[i].Jaar  +'</p>'],
-     speed: 100,
-	 lifelike:true,
-	 cursor:false,
-     breakLines: true,
-     autoStart: true
-	 
-	 
-})
-/*
-.tiPause(2000)
-.tiType('What are you looking for?')
-.tiPause(500)*/
-;
+			//typing.js voor random quotes met typewriter effect weer te geven in de tag met class typing
+			$(".typing").typeIt({
+    			strings: ['“'+ data.Quotes[i].Quote +'” <p class="ptit">'+ data.Quotes[i].Film +', '+ data.Quotes[i].Jaar  +'</p>'],
+    			speed: 100,
+	 			lifelike:true,
+	 			cursor:false,
+     			breakLines: true,
+     			autoStart: true	 
+			});
 
-});	
-    });
+		});	
+    });//sluit de json toegang
 
 });

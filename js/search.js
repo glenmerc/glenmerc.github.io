@@ -36,7 +36,7 @@ $(document).ready(function() {
 		
 		$.getJSON("https://api.themoviedb.org/3/search/movie?api_key=f32e0e7660d450db58d253702535beb2&language=en-US&query="+query+"&page=1&include_adult=false", function(data){
 			
-			for (i = 0; i < 18; i++) {
+			for (i = 0; i < data.results.length; i++) {
 			movie = data.results[i].original_title;
 			movieId = data.results[i].id;
 			posterId = data.results[i].poster_path;
@@ -56,6 +56,7 @@ $(document).ready(function() {
 			//wanneer er geklikt wordt op een .movieId --> sessionstorage van alt-waarde
 			$(".movieId").on("click", function(){
 				movieId = $(this).attr("alt");
+				alert("yes");
 				sessionStorage.setItem("movieId", movieId);
 				});
 				

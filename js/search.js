@@ -56,7 +56,6 @@ $(document).ready(function() {
 			//wanneer er geklikt wordt op een .movieId --> sessionstorage van alt-waarde
 			$(".movieId").on("click", function(){
 				movieId = $(this).attr("alt");
-				alert("yes");
 				sessionStorage.setItem("movieId", movieId);
 				});
 				

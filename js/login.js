@@ -41,7 +41,6 @@ $( document ).ready(function() {
 	//realtime listener
 	firebase.auth().onAuthStateChanged(firebaseUser =>{
 		if (firebaseUser){
-			console.log(firebaseUser);
 			$("#btnLogout").removeClass("hide");
 			$("#btnSeen").removeClass("hide");
 			$("#btnWish").removeClass("hide");
@@ -65,7 +64,6 @@ $( document ).ready(function() {
 				$("#logged-in").html("Logged in as "+firebaseUser.email+" <span class='caret'></span>");
 			}
 		}else{
-			console.log("not logged in");
 			$("#btnLogout").addClass("hide");
 			$("#btnSeen").addClass("hide");
 			$("#btnWish").addClass("hide");
@@ -162,8 +160,6 @@ $( document ).ready(function() {
 		if (firebaseUser){
 			firebase.database().ref().child("users").child(firebaseUser.uid).child("name").set(firebaseUser.displayName);
 			firebase.database().ref().child("users").child(firebaseUser.uid).child("email").set(firebaseUser.email);
-		}else{
-		console.log("error")	
 		}
 	
 	});

@@ -72,7 +72,6 @@ $( document ).ready(function() {
 			$("#movies").html("");
 			
 			//aanmaak van elke film
-			console.log(page);
 			for (i = 0; i < 18; i++) {
 			movie = data.results[i].original_title;
 			posterId = data.results[i].poster_path;

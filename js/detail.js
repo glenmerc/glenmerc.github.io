@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
 	"use strict";
-	var movieId, title, info, poster, posterId, posterPre, i, homepage, imdbId, imdbRating, jaar, release, director, key, genreId;
+	var movieId, title, info, poster, posterId, posterPre, i, homepage, imdbId, imdbRating, jaar, release, director, key, genreId, query;
 	
 	//session store ophalen uit vorige js
 	movieId = sessionStorage.getItem("movieId");
@@ -125,6 +125,9 @@ $(document).ready(function() {
 			window.location.href = "result";
 			});	
 	});
+	
+	
+		
 
 	
 	

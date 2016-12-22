@@ -14,8 +14,6 @@ $( document ).ready(function() {
 			firebase.database().ref().child("users").child(firebaseUser.uid).child("movies").child("seen").child(movieId).child("poster").set(poster);
 			firebase.database().ref().child("users").child(firebaseUser.uid).child("movies").child("seen").child(movieId).child("movieId").set(movieId);
 			firebase.database().ref().child("users").child(firebaseUser.uid).child("movies").child("seen").child(movieId).child("seen").set("true");
-		}else{
-		console.log("error")	;
 		}
 	
 		});

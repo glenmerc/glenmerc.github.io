@@ -27,8 +27,6 @@ $( document ).ready(function() {
 				});
 				
 			});
-		}else{
-		console.log("error");
 		}
 	});//sluit de datbaseconnectie
 });
